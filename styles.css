@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Consulta de aprietes</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main class="app-shell">
+      <section class="panel query-panel" aria-labelledby="app-title">
+        <header class="brand-header">
+          <img src="assets/logo-ampes.png" alt="AMPES" class="brand-logo">
+          <div>
+            <strong>AMPES</strong>
+            <span>Torque calculator</span>
+          </div>
+        </header>
+
+        <div class="title-block">
+          <p class="eyebrow">Tabla de aprietes</p>
+          <h1 id="app-title">Consulta de aprietes</h1>
+          <p class="subtitle">Selecciona el tamano, el material y si lleva Xylan para obtener los valores de par y precarga.</p>
+        </div>
+
+        <form id="lookup-form" class="lookup-form">
+          <label class="field">
+            <span>Tamano</span>
+            <select id="size-select" name="size" required></select>
+          </label>
+
+          <label class="field">
+            <span>Material</span>
+            <select id="material-select" name="material" required></select>
+          </label>
+
+          <fieldset class="xylan-field">
+            <legend>Xylan</legend>
+            <div class="segmented" role="radiogroup" aria-label="Selector Xylan">
+              <label>
+                <input type="radio" name="xylan" value="no" checked>
+                <span>No</span>
+              </label>
+              <label>
+                <input type="radio" name="xylan" value="yes">
+                <span>Si</span>
+              </label>
+            </div>
+          </fieldset>
+        </form>
+      </section>
+
+      <section class="panel result-panel" aria-live="polite">
+        <div class="result-header">
+          <p class="eyebrow">Resultado</p>
+          <h2 id="result-title">Esperando datos</h2>
+        </div>
+
+        <div class="metric-grid">
+          <article class="metric primary">
+            <span>Par minimo</span>
+            <strong id="torque-min">--</strong>
+            <small>N.m</small>
+          </article>
+          <article class="metric primary">
+            <span>Par maximo</span>
+            <strong id="torque-max">--</strong>
+            <small>N.m</small>
+          </article>
+          <article class="metric">
+            <span>Precarga minima</span>
+            <strong id="preload-min">--</strong>
+            <small>N</small>
+          </article>
+          <article class="metric">
+            <span>Precarga maxima</span>
+            <strong id="preload-max">--</strong>
+            <small>N</small>
+          </article>
+        </div>
+
+        <dl class="details">
+          <div>
+            <dt>Limite elastico Sy</dt>
+            <dd id="sy-value">--</dd>
+          </div>
+          <div>
+            <dt>Estado Xylan</dt>
+            <dd id="xylan-status">--</dd>
+          </div>
+          <div>
+            <dt>Origen</dt>
+            <dd id="source-status">--</dd>
+          </div>
+        </dl>
+
+        <p id="notice" class="notice" hidden></p>
+      </section>
+    </main>
+
+    <script src="app.js" type="module"></script>
+  </body>
+</html>
