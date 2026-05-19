@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Consulta de aprietes AMPES</title>
-    <link rel="stylesheet" href="./styles.css?v=10">
+    <link rel="stylesheet" href="./styles.css?v=11">
   </head>
   <body>
     <main class="app-shell">
@@ -20,20 +20,10 @@
         <div class="title-block">
           <p class="eyebrow">Tabla de aprietes</p>
           <h1 id="app-title">Consulta de aprietes</h1>
-          <p class="subtitle">Selecciona el tamano, el material y si lleva Xylan para obtener los valores de par y precarga.</p>
+          <p class="subtitle">Selecciona primero si lleva Xylan, despues el tamano y el material para obtener los valores de par y precarga.</p>
         </div>
 
         <form id="lookup-form" class="lookup-form">
-          <label class="field">
-            <span>Tamano</span>
-            <select id="size-select" name="size" required></select>
-          </label>
-
-          <label class="field">
-            <span>Material</span>
-            <select id="material-select" name="material" required></select>
-          </label>
-
           <fieldset class="xylan-field">
             <legend>Xylan</legend>
             <div class="segmented" role="radiogroup" aria-label="Selector Xylan">
@@ -47,6 +37,16 @@
               </label>
             </div>
           </fieldset>
+
+          <label class="field">
+            <span>Tamano</span>
+            <select id="size-select" name="size" required></select>
+          </label>
+
+          <label class="field">
+            <span>Material</span>
+            <select id="material-select" name="material" required></select>
+          </label>
         </form>
       </section>
 
@@ -103,6 +103,6 @@
       </section>
     </main>
 
-    <script src="app.js" type="module"></script>
+    <script src="./app.js?v=11" type="module"></script>
   </body>
 </html>
