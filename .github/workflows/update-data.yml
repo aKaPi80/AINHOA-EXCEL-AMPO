@@ -1,0 +1,43 @@
+name: Update torque data
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 5 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Download Excel from SharePoint
+        shell: pwsh
+        env:
+          SHAREPOINT_EXCEL_URL: "https://amposcoop-my.sharepoint.com/:x:/g/personal/alizarralde_ampo_com/IQA54oL6MjLIRKaw_dnRPFsMAQCr7QLsQWfRSChUFHyW5vw"
+        run: |
+          $separator = if ($env:SHAREPOINT_EXCEL_URL.Contains("?")) { "&" } else { "?" }
+          $downloadUrl = "$env:SHAREPOINT_EXCEL_URL$separator`download=1"
+          Invoke-WebRequest -Uri $downloadUrl -OutFile source.xlsm -TimeoutSec 120
+
+      - name: Regenerate data from downloaded Excel
+        run: node update-data-from-sharepoint.cjs source.xlsm
+
+      - name: Commit updated data
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Update torque data from SharePoint"
+          file_pattern: data/torque-data.json
