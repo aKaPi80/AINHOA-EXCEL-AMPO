@@ -17,6 +17,13 @@ const els = {
   notice: document.querySelector("#notice"),
 };
 
+const selectedXylan = () => new FormData(els.form).get("xylan");
+
+const activeXylanValue = () => {
+  const selected = selectedXylan();
+  return selected === "yes" ? "yes" : "no";
+};
+
 const formatNumber = (value, decimals = 0) => {
   if (value === null || value === undefined || Number.isNaN(Number(value))) {
     return "--";
@@ -45,13 +52,6 @@ const fillSelect = (select, values, currentValue) => {
   }
 };
 
-const selectedXylan = () => new FormData(els.form).get("xylan");
-
-const activeXylanValue = () => {
-  const selected = selectedXylan();
-  return selected === "yes" ? "yes" : "no";
-};
-
 const recordsForCurrentXylan = () => {
   if (!state.data.xylanAvailable) {
     return state.data.records;
@@ -60,55 +60,53 @@ const recordsForCurrentXylan = () => {
   return state.data.records.filter((record) => record.xylan === activeXylanValue());
 };
 
-const recordsForSize = (size) => recordsForCurrentXylan().filter((record) => record.size === size);
+const recordsForSize = (size) => {
+  return recordsForCurrentXylan().filter((record) => record.size === size);
+};
 
-const recordsForMaterial = (material) => recordsForCurrentXylan().filter((record) => record.material === material);
-
-const syncMaterialOptions = () => {
-  const current = els.material.value;
+const syncMaterialOptions = (preferredMaterial = els.material.value) => {
   const materials = unique(recordsForSize(els.size.value).map((record) => record.material));
-  fillSelect(els.material, materials, current);
+  fillSelect(els.material, materials, preferredMaterial);
 };
 
-const syncSizeOptions = () => {
-  const current = els.size.value;
-  const sizes = unique(recordsForMaterial(els.material.value).map((record) => record.size));
-  fillSelect(els.size, sizes, current);
-};
-
-const syncAllOptions = () => {
-  const currentSize = els.size.value;
-  const currentMaterial = els.material.value;
+const syncAllOptions = (preferredSize = els.size.value, preferredMaterial = els.material.value) => {
   const xylanRecords = recordsForCurrentXylan();
   const sizes = unique(xylanRecords.map((record) => record.size));
 
-  fillSelect(els.size, sizes, currentSize);
-
-  const materials = unique(recordsForSize(els.size.value).map((record) => record.material));
-  fillSelect(els.material, materials, currentMaterial);
+  fillSelect(els.size, sizes, preferredSize);
+  syncMaterialOptions(preferredMaterial);
 };
 
-const renderResult = () => {
-  const match = state.data.records.find(
+const findMatch = () => {
+  return state.data.records.find(
     (record) =>
       record.size === els.size.value &&
       record.material === els.material.value &&
       (!state.data.xylanAvailable || record.xylan === activeXylanValue())
   );
+};
+
+const clearResult = () => {
+  els.title.textContent = "Sin coincidencia";
+  els.torqueMin.textContent = "--";
+  els.torqueMax.textContent = "--";
+  els.preloadMin.textContent = "--";
+  els.preloadMax.textContent = "--";
+  els.sy.textContent = "--";
+  els.xylanStatus.textContent = "--";
+  els.sourceStatus.textContent = state.data?.sourceSheet || "--";
+};
+
+const renderResult = () => {
+  const match = findMatch();
 
   if (!match) {
-    els.title.textContent = "Sin coincidencia";
-    els.torqueMin.textContent = "--";
-    els.torqueMax.textContent = "--";
-    els.preloadMin.textContent = "--";
-    els.preloadMax.textContent = "--";
-    els.sy.textContent = "--";
-    els.xylanStatus.textContent = "--";
-    els.sourceStatus.textContent = state.data.sourceSheet || "--";
+    clearResult();
     return;
   }
 
   const xylan = selectedXylan();
+
   els.title.textContent = `${match.size} - ${match.material}`;
   els.torqueMin.textContent = formatNumber(match.torqueMinNm, 2);
   els.torqueMax.textContent = formatNumber(match.torqueMaxNm, 2);
@@ -128,7 +126,7 @@ const renderResult = () => {
 };
 
 const init = async () => {
-  const response = await fetch("data/torque-data.json");
+  const response = await fetch("./data/torque-data.json?v=11");
 
   if (!response.ok) {
     throw new Error("No se pudo cargar data/torque-data.json");
@@ -145,12 +143,11 @@ const init = async () => {
   });
 
   els.material.addEventListener("change", () => {
-    syncSizeOptions();
     renderResult();
   });
 
   els.form.addEventListener("change", () => {
-    syncAllOptions();
+    syncAllOptions(els.size.value, els.material.value);
     renderResult();
   });
 };
@@ -160,3 +157,4 @@ init().catch((error) => {
   els.notice.hidden = false;
   els.notice.textContent = error.message;
 });
+
