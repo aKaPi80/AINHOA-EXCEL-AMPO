@@ -1,7 +1,7 @@
 {
   "sourceFile": "source.xlsm",
-  "sourceSheet": "Pares, Pares XYLAN",
-  "generatedAt": "2026-05-27T08:42:07.218Z",
+  "sourceSheet": "Pares XYLAN, Pares",
+  "generatedAt": "2026-05-28T08:48:32.907Z",
   "xylanAvailable": true,
   "note": "Datos generados desde tablas separadas con y sin Xylan.",
   "sizes": [
@@ -32,6 +32,19 @@
     "4\""
   ],
   "materials": [
+    "A320 L7 + XYLAN",
+    "A320 L7M + XYLAN",
+    "A193 B7 + XYLAN",
+    "A193 B7M + XYLAN",
+    "A479 XM-19_hot rolled (NITRONIC 50HS) + XYLAN",
+    "A479 XM-19_annealled (NITRONIC 50) + XYLAN",
+    "A193 B16 + XYLAN",
+    "A193 B8 Cl-1 + XYLAN",
+    "A320 B8 Cl-1 + XYLAN",
+    "A193 B8 Cl-2 + XYLAN",
+    "A320 B8 Cl-2 + XYLAN",
+    "A193 B8M Cl-2 + XYLAN",
+    "A320 B8M Cl-2 + XYLAN",
     "A320 L7",
     "A320 L7M",
     "A193 B7",
@@ -51,22 +64,3259 @@
     "A193 B8 Cl-2",
     "A320 B8 Cl-2",
     "A193 B8M Cl-2",
-    "A320 B8M Cl-2",
-    "A320 L7 + XYLAN",
-    "A320 L7M + XYLAN",
-    "A193 B7 + XYLAN",
-    "A193 B7M + XYLAN",
-    "A479 XM-19_hot rolled (NITRONIC 50HS) + XYLAN",
-    "A479 XM-19_annealled (NITRONIC 50) + XYLAN",
-    "A193 B16 + XYLAN",
-    "A193 B8 Cl-1 + XYLAN",
-    "A320 B8 Cl-1 + XYLAN",
-    "A193 B8 Cl-2 + XYLAN",
-    "A320 B8 Cl-2 + XYLAN",
-    "A193 B8M Cl-2 + XYLAN",
-    "A320 B8M Cl-2 + XYLAN"
+    "A320 B8M Cl-2"
   ],
   "records": [
+    {
+      "size": "5/16\"",
+      "material": "A320 L7 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 725,
+      "preloadMinN": 17167,
+      "preloadMaxN": 17167,
+      "torqueMinNm": 20,
+      "torqueMaxNm": 22
+    },
+    {
+      "size": "5/16\"",
+      "material": "A320 L7M + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 550,
+      "preloadMinN": 13023,
+      "preloadMaxN": 13023,
+      "torqueMinNm": 17,
+      "torqueMaxNm": 17
+    },
+    {
+      "size": "5/16\"",
+      "material": "A193 B7 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 720,
+      "preloadMinN": 17048,
+      "preloadMaxN": 17048,
+      "torqueMinNm": 20,
+      "torqueMaxNm": 22
+    },
+    {
+      "size": "5/16\"",
+      "material": "A193 B7M + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 550,
+      "preloadMinN": 13023,
+      "preloadMaxN": 13023,
+      "torqueMinNm": 17,
+      "torqueMaxNm": 17
+    },
+    {
+      "size": "5/16\"",
+      "material": "A479 XM-19_hot rolled (NITRONIC 50HS) + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 725,
+      "preloadMinN": 17167,
+      "preloadMaxN": 17167,
+      "torqueMinNm": 20,
+      "torqueMaxNm": 22
+    },
+    {
+      "size": "5/16\"",
+      "material": "A479 XM-19_annealled (NITRONIC 50) + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 380,
+      "preloadMinN": 8998,
+      "preloadMaxN": 8998,
+      "torqueMinNm": 12,
+      "torqueMaxNm": 12
+    },
+    {
+      "size": "5/16\"",
+      "material": "A193 B16 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 725,
+      "preloadMinN": 17167,
+      "preloadMaxN": 17167,
+      "torqueMinNm": 20,
+      "torqueMaxNm": 22
+    },
+    {
+      "size": "5/16\"",
+      "material": "A193 B8 Cl-1 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 205,
+      "preloadMinN": 4854,
+      "preloadMaxN": 4854,
+      "torqueMinNm": 6,
+      "torqueMaxNm": 6
+    },
+    {
+      "size": "5/16\"",
+      "material": "A320 B8 Cl-1 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 205,
+      "preloadMinN": 4854,
+      "preloadMaxN": 4854,
+      "torqueMinNm": 6,
+      "torqueMaxNm": 6
+    },
+    {
+      "size": "5/16\"",
+      "material": "A193 B8 Cl-2 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 690,
+      "preloadMinN": 16338,
+      "preloadMaxN": 16338,
+      "torqueMinNm": 21,
+      "torqueMaxNm": 21
+    },
+    {
+      "size": "5/16\"",
+      "material": "A320 B8 Cl-2 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 690,
+      "preloadMinN": 16338,
+      "preloadMaxN": 16338,
+      "torqueMinNm": 21,
+      "torqueMaxNm": 21
+    },
+    {
+      "size": "5/16\"",
+      "material": "A193 B8M Cl-2 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 655,
+      "preloadMinN": 15509,
+      "preloadMaxN": 15509,
+      "torqueMinNm": 20,
+      "torqueMaxNm": 20
+    },
+    {
+      "size": "5/16\"",
+      "material": "A320 B8M Cl-2 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 655,
+      "preloadMinN": 15509,
+      "preloadMaxN": 15509,
+      "torqueMinNm": 20,
+      "torqueMaxNm": 20
+    },
+    {
+      "size": "3/8\"",
+      "material": "A320 L7 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 725,
+      "preloadMinN": 25372,
+      "preloadMaxN": 25372,
+      "torqueMinNm": 34,
+      "torqueMaxNm": 38
+    },
+    {
+      "size": "3/8\"",
+      "material": "A320 L7M + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 550,
+      "preloadMinN": 19247,
+      "preloadMaxN": 19247,
+      "torqueMinNm": 29,
+      "torqueMaxNm": 29
+    },
+    {
+      "size": "3/8\"",
+      "material": "A193 B7 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 720,
+      "preloadMinN": 25197,
+      "preloadMaxN": 25197,
+      "torqueMinNm": 34,
+      "torqueMaxNm": 38
+    },
+    {
+      "size": "3/8\"",
+      "material": "A193 B7M + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 550,
+      "preloadMinN": 19247,
+      "preloadMaxN": 19247,
+      "torqueMinNm": 29,
+      "torqueMaxNm": 29
+    },
+    {
+      "size": "3/8\"",
+      "material": "A479 XM-19_hot rolled (NITRONIC 50HS) + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 725,
+      "preloadMinN": 25372,
+      "preloadMaxN": 25372,
+      "torqueMinNm": 34,
+      "torqueMaxNm": 38
+    },
+    {
+      "size": "3/8\"",
+      "material": "A479 XM-19_annealled (NITRONIC 50) + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 380,
+      "preloadMinN": 13298,
+      "preloadMaxN": 13298,
+      "torqueMinNm": 20,
+      "torqueMaxNm": 20
+    },
+    {
+      "size": "3/8\"",
+      "material": "A193 B16 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 725,
+      "preloadMinN": 25372,
+      "preloadMaxN": 25372,
+      "torqueMinNm": 34,
+      "torqueMaxNm": 38
+    },
+    {
+      "size": "3/8\"",
+      "material": "A193 B8 Cl-1 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 205,
+      "preloadMinN": 7174,
+      "preloadMaxN": 7174,
+      "torqueMinNm": 11,
+      "torqueMaxNm": 11
+    },
+    {
+      "size": "3/8\"",
+      "material": "A320 B8 Cl-1 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 205,
+      "preloadMinN": 7174,
+      "preloadMaxN": 7174,
+      "torqueMinNm": 11,
+      "torqueMaxNm": 11
+    },
+    {
+      "size": "3/8\"",
+      "material": "A193 B8 Cl-2 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 690,
+      "preloadMinN": 24147,
+      "preloadMaxN": 24147,
+      "torqueMinNm": 36,
+      "torqueMaxNm": 36
+    },
+    {
+      "size": "3/8\"",
+      "material": "A320 B8 Cl-2 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 690,
+      "preloadMinN": 24147,
+      "preloadMaxN": 24147,
+      "torqueMinNm": 36,
+      "torqueMaxNm": 36
+    },
+    {
+      "size": "3/8\"",
+      "material": "A193 B8M Cl-2 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 655,
+      "preloadMinN": 22922,
+      "preloadMaxN": 22922,
+      "torqueMinNm": 34,
+      "torqueMaxNm": 34
+    },
+    {
+      "size": "3/8\"",
+      "material": "A320 B8M Cl-2 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 655,
+      "preloadMinN": 22922,
+      "preloadMaxN": 22922,
+      "torqueMinNm": 34,
+      "torqueMaxNm": 34
+    },
+    {
+      "size": "7/16\"",
+      "material": "A320 L7 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 725,
+      "preloadMinN": 34807,
+      "preloadMaxN": 34807,
+      "torqueMinNm": 54,
+      "torqueMaxNm": 60
+    },
+    {
+      "size": "7/16\"",
+      "material": "A320 L7M + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 550,
+      "preloadMinN": 26406,
+      "preloadMaxN": 26406,
+      "torqueMinNm": 45,
+      "torqueMaxNm": 45
+    },
+    {
+      "size": "7/16\"",
+      "material": "A193 B7 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 720,
+      "preloadMinN": 34567,
+      "preloadMaxN": 34567,
+      "torqueMinNm": 54,
+      "torqueMaxNm": 60
+    },
+    {
+      "size": "7/16\"",
+      "material": "A193 B7M + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 550,
+      "preloadMinN": 26406,
+      "preloadMaxN": 26406,
+      "torqueMinNm": 45,
+      "torqueMaxNm": 45
+    },
+    {
+      "size": "7/16\"",
+      "material": "A479 XM-19_hot rolled (NITRONIC 50HS) + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 725,
+      "preloadMinN": 34807,
+      "preloadMaxN": 34807,
+      "torqueMinNm": 54,
+      "torqueMaxNm": 60
+    },
+    {
+      "size": "7/16\"",
+      "material": "A479 XM-19_annealled (NITRONIC 50) + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 380,
+      "preloadMinN": 18244,
+      "preloadMaxN": 18244,
+      "torqueMinNm": 31,
+      "torqueMaxNm": 31
+    },
+    {
+      "size": "7/16\"",
+      "material": "A193 B16 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 725,
+      "preloadMinN": 34807,
+      "preloadMaxN": 34807,
+      "torqueMinNm": 54,
+      "torqueMaxNm": 60
+    },
+    {
+      "size": "7/16\"",
+      "material": "A193 B8 Cl-1 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 205,
+      "preloadMinN": 9842,
+      "preloadMaxN": 9842,
+      "torqueMinNm": 17,
+      "torqueMaxNm": 17
+    },
+    {
+      "size": "7/16\"",
+      "material": "A320 B8 Cl-1 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 205,
+      "preloadMinN": 9842,
+      "preloadMaxN": 9842,
+      "torqueMinNm": 17,
+      "torqueMaxNm": 17
+    },
+    {
+      "size": "7/16\"",
+      "material": "A193 B8 Cl-2 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 690,
+      "preloadMinN": 33127,
+      "preloadMaxN": 33127,
+      "torqueMinNm": 57,
+      "torqueMaxNm": 57
+    },
+    {
+      "size": "7/16\"",
+      "material": "A320 B8 Cl-2 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 690,
+      "preloadMinN": 33127,
+      "preloadMaxN": 33127,
+      "torqueMinNm": 57,
+      "torqueMaxNm": 57
+    },
+    {
+      "size": "7/16\"",
+      "material": "A193 B8M Cl-2 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 655,
+      "preloadMinN": 31447,
+      "preloadMaxN": 31447,
+      "torqueMinNm": 54,
+      "torqueMaxNm": 54
+    },
+    {
+      "size": "7/16\"",
+      "material": "A320 B8M Cl-2 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 655,
+      "preloadMinN": 31447,
+      "preloadMaxN": 31447,
+      "torqueMinNm": 54,
+      "torqueMaxNm": 54
+    },
+    {
+      "size": "1/2\"",
+      "material": "A320 L7 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 725,
+      "preloadMinN": 46467,
+      "preloadMaxN": 46467,
+      "torqueMinNm": 81,
+      "torqueMaxNm": 90
+    },
+    {
+      "size": "1/2\"",
+      "material": "A320 L7M + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 550,
+      "preloadMinN": 35251,
+      "preloadMaxN": 35251,
+      "torqueMinNm": 68,
+      "torqueMaxNm": 68
+    },
+    {
+      "size": "1/2\"",
+      "material": "A193 B7 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 720,
+      "preloadMinN": 46147,
+      "preloadMaxN": 46147,
+      "torqueMinNm": 81,
+      "torqueMaxNm": 89
+    },
+    {
+      "size": "1/2\"",
+      "material": "A193 B7M + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 550,
+      "preloadMinN": 35251,
+      "preloadMaxN": 35251,
+      "torqueMinNm": 68,
+      "torqueMaxNm": 68
+    },
+    {
+      "size": "1/2\"",
+      "material": "A479 XM-19_hot rolled (NITRONIC 50HS) + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 725,
+      "preloadMinN": 46467,
+      "preloadMaxN": 46467,
+      "torqueMinNm": 81,
+      "torqueMaxNm": 90
+    },
+    {
+      "size": "1/2\"",
+      "material": "A479 XM-19_annealled (NITRONIC 50) + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 380,
+      "preloadMinN": 24355,
+      "preloadMaxN": 24355,
+      "torqueMinNm": 47,
+      "torqueMaxNm": 47
+    },
+    {
+      "size": "1/2\"",
+      "material": "A193 B16 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 725,
+      "preloadMinN": 46467,
+      "preloadMaxN": 46467,
+      "torqueMinNm": 81,
+      "torqueMaxNm": 90
+    },
+    {
+      "size": "1/2\"",
+      "material": "A193 B8 Cl-1 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 205,
+      "preloadMinN": 13139,
+      "preloadMaxN": 13139,
+      "torqueMinNm": 25,
+      "torqueMaxNm": 25
+    },
+    {
+      "size": "1/2\"",
+      "material": "A320 B8 Cl-1 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 205,
+      "preloadMinN": 13139,
+      "preloadMaxN": 13139,
+      "torqueMinNm": 25,
+      "torqueMaxNm": 25
+    },
+    {
+      "size": "1/2\"",
+      "material": "A193 B8 Cl-2 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 690,
+      "preloadMinN": 44224,
+      "preloadMaxN": 44224,
+      "torqueMinNm": 85,
+      "torqueMaxNm": 85
+    },
+    {
+      "size": "1/2\"",
+      "material": "A320 B8 Cl-2 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 690,
+      "preloadMinN": 44224,
+      "preloadMaxN": 44224,
+      "torqueMinNm": 85,
+      "torqueMaxNm": 85
+    },
+    {
+      "size": "1/2\"",
+      "material": "A193 B8M Cl-2 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 655,
+      "preloadMinN": 41981,
+      "preloadMaxN": 41981,
+      "torqueMinNm": 81,
+      "torqueMaxNm": 81
+    },
+    {
+      "size": "1/2\"",
+      "material": "A320 B8M Cl-2 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 655,
+      "preloadMinN": 41981,
+      "preloadMaxN": 41981,
+      "torqueMinNm": 81,
+      "torqueMaxNm": 81
+    },
+    {
+      "size": "9/16\"",
+      "material": "A320 L7 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 725,
+      "preloadMinN": 59572,
+      "preloadMaxN": 59572,
+      "torqueMinNm": 115,
+      "torqueMaxNm": 128
+    },
+    {
+      "size": "9/16\"",
+      "material": "A320 L7M + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 550,
+      "preloadMinN": 45192,
+      "preloadMaxN": 45192,
+      "torqueMinNm": 97,
+      "torqueMaxNm": 97
+    },
+    {
+      "size": "9/16\"",
+      "material": "A193 B7 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 720,
+      "preloadMinN": 59161,
+      "preloadMaxN": 59161,
+      "torqueMinNm": 115,
+      "torqueMaxNm": 127
+    },
+    {
+      "size": "9/16\"",
+      "material": "A193 B7M + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 550,
+      "preloadMinN": 45192,
+      "preloadMaxN": 45192,
+      "torqueMinNm": 97,
+      "torqueMaxNm": 97
+    },
+    {
+      "size": "9/16\"",
+      "material": "A479 XM-19_hot rolled (NITRONIC 50HS) + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 725,
+      "preloadMinN": 59572,
+      "preloadMaxN": 59572,
+      "torqueMinNm": 115,
+      "torqueMaxNm": 128
+    },
+    {
+      "size": "9/16\"",
+      "material": "A479 XM-19_annealled (NITRONIC 50) + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 380,
+      "preloadMinN": 31224,
+      "preloadMaxN": 31224,
+      "torqueMinNm": 67,
+      "torqueMaxNm": 67
+    },
+    {
+      "size": "9/16\"",
+      "material": "A193 B16 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 725,
+      "preloadMinN": 59572,
+      "preloadMaxN": 59572,
+      "torqueMinNm": 115,
+      "torqueMaxNm": 128
+    },
+    {
+      "size": "9/16\"",
+      "material": "A193 B8 Cl-1 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 205,
+      "preloadMinN": 16844,
+      "preloadMaxN": 16844,
+      "torqueMinNm": 36,
+      "torqueMaxNm": 36
+    },
+    {
+      "size": "9/16\"",
+      "material": "A320 B8 Cl-1 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 205,
+      "preloadMinN": 16844,
+      "preloadMaxN": 16844,
+      "torqueMinNm": 36,
+      "torqueMaxNm": 36
+    },
+    {
+      "size": "9/16\"",
+      "material": "A193 B8 Cl-2 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 690,
+      "preloadMinN": 56696,
+      "preloadMaxN": 56696,
+      "torqueMinNm": 121,
+      "torqueMaxNm": 121
+    },
+    {
+      "size": "9/16\"",
+      "material": "A320 B8 Cl-2 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 690,
+      "preloadMinN": 56696,
+      "preloadMaxN": 56696,
+      "torqueMinNm": 121,
+      "torqueMaxNm": 121
+    },
+    {
+      "size": "9/16\"",
+      "material": "A193 B8M Cl-2 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 655,
+      "preloadMinN": 53820,
+      "preloadMaxN": 53820,
+      "torqueMinNm": 115,
+      "torqueMaxNm": 115
+    },
+    {
+      "size": "9/16\"",
+      "material": "A320 B8M Cl-2 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 655,
+      "preloadMinN": 53820,
+      "preloadMaxN": 53820,
+      "torqueMinNm": 115,
+      "torqueMaxNm": 115
+    },
+    {
+      "size": "5/8\"",
+      "material": "A320 L7 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 725,
+      "preloadMinN": 73997,
+      "preloadMaxN": 73997,
+      "torqueMinNm": 157,
+      "torqueMaxNm": 174
+    },
+    {
+      "size": "5/8\"",
+      "material": "A320 L7M + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 550,
+      "preloadMinN": 56136,
+      "preloadMaxN": 56136,
+      "torqueMinNm": 132,
+      "torqueMaxNm": 132
+    },
+    {
+      "size": "5/8\"",
+      "material": "A193 B7 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 720,
+      "preloadMinN": 73487,
+      "preloadMaxN": 73487,
+      "torqueMinNm": 157,
+      "torqueMaxNm": 173
+    },
+    {
+      "size": "5/8\"",
+      "material": "A193 B7M + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 550,
+      "preloadMinN": 56136,
+      "preloadMaxN": 56136,
+      "torqueMinNm": 132,
+      "torqueMaxNm": 132
+    },
+    {
+      "size": "5/8\"",
+      "material": "A479 XM-19_hot rolled (NITRONIC 50HS) + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 725,
+      "preloadMinN": 73997,
+      "preloadMaxN": 73997,
+      "torqueMinNm": 157,
+      "torqueMaxNm": 174
+    },
+    {
+      "size": "5/8\"",
+      "material": "A479 XM-19_annealled (NITRONIC 50) + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 380,
+      "preloadMinN": 38785,
+      "preloadMaxN": 38785,
+      "torqueMinNm": 91,
+      "torqueMaxNm": 91
+    },
+    {
+      "size": "5/8\"",
+      "material": "A193 B16 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 725,
+      "preloadMinN": 73997,
+      "preloadMaxN": 73997,
+      "torqueMinNm": 157,
+      "torqueMaxNm": 174
+    },
+    {
+      "size": "5/8\"",
+      "material": "A193 B8 Cl-1 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 205,
+      "preloadMinN": 20923,
+      "preloadMaxN": 20923,
+      "torqueMinNm": 49,
+      "torqueMaxNm": 49
+    },
+    {
+      "size": "5/8\"",
+      "material": "A320 B8 Cl-1 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 205,
+      "preloadMinN": 20923,
+      "preloadMaxN": 20923,
+      "torqueMinNm": 49,
+      "torqueMaxNm": 49
+    },
+    {
+      "size": "5/8\"",
+      "material": "A193 B8 Cl-2 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 690,
+      "preloadMinN": 70425,
+      "preloadMaxN": 70425,
+      "torqueMinNm": 166,
+      "torqueMaxNm": 166
+    },
+    {
+      "size": "5/8\"",
+      "material": "A320 B8 Cl-2 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 690,
+      "preloadMinN": 70425,
+      "preloadMaxN": 70425,
+      "torqueMinNm": 166,
+      "torqueMaxNm": 166
+    },
+    {
+      "size": "5/8\"",
+      "material": "A193 B8M Cl-2 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 655,
+      "preloadMinN": 66853,
+      "preloadMaxN": 66853,
+      "torqueMinNm": 157,
+      "torqueMaxNm": 157
+    },
+    {
+      "size": "5/8\"",
+      "material": "A320 B8M Cl-2 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 655,
+      "preloadMinN": 66853,
+      "preloadMaxN": 66853,
+      "torqueMinNm": 157,
+      "torqueMaxNm": 157
+    },
+    {
+      "size": "3/4\"",
+      "material": "A320 L7 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 725,
+      "preloadMinN": 109508,
+      "preloadMaxN": 109508,
+      "torqueMinNm": 274,
+      "torqueMaxNm": 303
+    },
+    {
+      "size": "3/4\"",
+      "material": "A320 L7M + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 550,
+      "preloadMinN": 83075,
+      "preloadMaxN": 83075,
+      "torqueMinNm": 230,
+      "torqueMaxNm": 230
+    },
+    {
+      "size": "3/4\"",
+      "material": "A193 B7 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 720,
+      "preloadMinN": 108753,
+      "preloadMaxN": 108753,
+      "torqueMinNm": 274,
+      "torqueMaxNm": 301
+    },
+    {
+      "size": "3/4\"",
+      "material": "A193 B7M + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 550,
+      "preloadMinN": 83075,
+      "preloadMaxN": 83075,
+      "torqueMinNm": 230,
+      "torqueMaxNm": 230
+    },
+    {
+      "size": "3/4\"",
+      "material": "A479 XM-19_hot rolled (NITRONIC 50HS) + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 725,
+      "preloadMinN": 109508,
+      "preloadMaxN": 109508,
+      "torqueMinNm": 274,
+      "torqueMaxNm": 303
+    },
+    {
+      "size": "3/4\"",
+      "material": "A479 XM-19_annealled (NITRONIC 50) + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 380,
+      "preloadMinN": 57398,
+      "preloadMaxN": 57398,
+      "torqueMinNm": 159,
+      "torqueMaxNm": 159
+    },
+    {
+      "size": "3/4\"",
+      "material": "A193 B16 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 725,
+      "preloadMinN": 109508,
+      "preloadMaxN": 109508,
+      "torqueMinNm": 274,
+      "torqueMaxNm": 303
+    },
+    {
+      "size": "3/4\"",
+      "material": "A193 B8 Cl-1 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 205,
+      "preloadMinN": 30964,
+      "preloadMaxN": 30964,
+      "torqueMinNm": 86,
+      "torqueMaxNm": 86
+    },
+    {
+      "size": "3/4\"",
+      "material": "A320 B8 Cl-1 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 205,
+      "preloadMinN": 30964,
+      "preloadMaxN": 30964,
+      "torqueMinNm": 86,
+      "torqueMaxNm": 86
+    },
+    {
+      "size": "3/4\"",
+      "material": "A193 B8 Cl-2 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 690,
+      "preloadMinN": 104222,
+      "preloadMaxN": 104222,
+      "torqueMinNm": 288,
+      "torqueMaxNm": 288
+    },
+    {
+      "size": "3/4\"",
+      "material": "A320 B8 Cl-2 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 690,
+      "preloadMinN": 104222,
+      "preloadMaxN": 104222,
+      "torqueMinNm": 288,
+      "torqueMaxNm": 288
+    },
+    {
+      "size": "3/4\"",
+      "material": "A193 B8M Cl-2 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 655,
+      "preloadMinN": 98935,
+      "preloadMaxN": 98935,
+      "torqueMinNm": 274,
+      "torqueMaxNm": 274
+    },
+    {
+      "size": "3/4\"",
+      "material": "A320 B8M Cl-2 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 655,
+      "preloadMinN": 98935,
+      "preloadMaxN": 98935,
+      "torqueMinNm": 274,
+      "torqueMaxNm": 274
+    },
+    {
+      "size": "7/8\"",
+      "material": "A320 L7 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 725,
+      "preloadMinN": 151183,
+      "preloadMaxN": 151183,
+      "torqueMinNm": 365,
+      "torqueMaxNm": 481
+    },
+    {
+      "size": "7/8\"",
+      "material": "A320 L7M + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 550,
+      "preloadMinN": 114691,
+      "preloadMaxN": 114691,
+      "torqueMinNm": 365,
+      "torqueMaxNm": 365
+    },
+    {
+      "size": "7/8\"",
+      "material": "A193 B7 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 720,
+      "preloadMinN": 150141,
+      "preloadMaxN": 150141,
+      "torqueMinNm": 365,
+      "torqueMaxNm": 478
+    },
+    {
+      "size": "7/8\"",
+      "material": "A193 B7M + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 550,
+      "preloadMinN": 114691,
+      "preloadMaxN": 114691,
+      "torqueMinNm": 365,
+      "torqueMaxNm": 365
+    },
+    {
+      "size": "7/8\"",
+      "material": "A479 XM-19_hot rolled (NITRONIC 50HS) + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 725,
+      "preloadMinN": 151183,
+      "preloadMaxN": 151183,
+      "torqueMinNm": 365,
+      "torqueMaxNm": 481
+    },
+    {
+      "size": "7/8\"",
+      "material": "A479 XM-19_annealled (NITRONIC 50) + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 380,
+      "preloadMinN": 79241,
+      "preloadMaxN": 79241,
+      "torqueMinNm": 252,
+      "torqueMaxNm": 252
+    },
+    {
+      "size": "7/8\"",
+      "material": "A193 B16 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 725,
+      "preloadMinN": 151183,
+      "preloadMaxN": 151183,
+      "torqueMinNm": 365,
+      "torqueMaxNm": 481
+    },
+    {
+      "size": "7/8\"",
+      "material": "A193 B8 Cl-1 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 205,
+      "preloadMinN": 42748,
+      "preloadMaxN": 42748,
+      "torqueMinNm": 136,
+      "torqueMaxNm": 136
+    },
+    {
+      "size": "7/8\"",
+      "material": "A320 B8 Cl-1 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 205,
+      "preloadMinN": 42748,
+      "preloadMaxN": 42748,
+      "torqueMinNm": 136,
+      "torqueMaxNm": 136
+    },
+    {
+      "size": "7/8\"",
+      "material": "A193 B8 Cl-2 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 550,
+      "preloadMinN": 114691,
+      "preloadMaxN": 114691,
+      "torqueMinNm": 365,
+      "torqueMaxNm": 365
+    },
+    {
+      "size": "7/8\"",
+      "material": "A320 B8 Cl-2 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 550,
+      "preloadMinN": 114691,
+      "preloadMaxN": 114691,
+      "torqueMinNm": 365,
+      "torqueMaxNm": 365
+    },
+    {
+      "size": "7/8\"",
+      "material": "A193 B8M Cl-2 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 550,
+      "preloadMinN": 114691,
+      "preloadMaxN": 114691,
+      "torqueMinNm": 365,
+      "torqueMaxNm": 365
+    },
+    {
+      "size": "7/8\"",
+      "material": "A320 B8M Cl-2 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 550,
+      "preloadMinN": 114691,
+      "preloadMaxN": 114691,
+      "torqueMinNm": 365,
+      "torqueMaxNm": 365
+    },
+    {
+      "size": "1\"",
+      "material": "A320 L7 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 725,
+      "preloadMinN": 198332,
+      "preloadMaxN": 198332,
+      "torqueMinNm": 543,
+      "torqueMaxNm": 716
+    },
+    {
+      "size": "1\"",
+      "material": "A320 L7M + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 550,
+      "preloadMinN": 150459,
+      "preloadMaxN": 150459,
+      "torqueMinNm": 543,
+      "torqueMaxNm": 543
+    },
+    {
+      "size": "1\"",
+      "material": "A193 B7 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 720,
+      "preloadMinN": 196964,
+      "preloadMaxN": 196964,
+      "torqueMinNm": 543,
+      "torqueMaxNm": 711
+    },
+    {
+      "size": "1\"",
+      "material": "A193 B7M + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 550,
+      "preloadMinN": 150459,
+      "preloadMaxN": 150459,
+      "torqueMinNm": 543,
+      "torqueMaxNm": 543
+    },
+    {
+      "size": "1\"",
+      "material": "A479 XM-19_hot rolled (NITRONIC 50HS) + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 725,
+      "preloadMinN": 198332,
+      "preloadMaxN": 198332,
+      "torqueMinNm": 543,
+      "torqueMaxNm": 716
+    },
+    {
+      "size": "1\"",
+      "material": "A479 XM-19_annealled (NITRONIC 50) + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 380,
+      "preloadMinN": 103953,
+      "preloadMaxN": 103953,
+      "torqueMinNm": 375,
+      "torqueMaxNm": 375
+    },
+    {
+      "size": "1\"",
+      "material": "A193 B16 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 725,
+      "preloadMinN": 198332,
+      "preloadMaxN": 198332,
+      "torqueMinNm": 543,
+      "torqueMaxNm": 716
+    },
+    {
+      "size": "1\"",
+      "material": "A193 B8 Cl-1 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 205,
+      "preloadMinN": 56080,
+      "preloadMaxN": 56080,
+      "torqueMinNm": 202,
+      "torqueMaxNm": 202
+    },
+    {
+      "size": "1\"",
+      "material": "A320 B8 Cl-1 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 205,
+      "preloadMinN": 56080,
+      "preloadMaxN": 56080,
+      "torqueMinNm": 202,
+      "torqueMaxNm": 202
+    },
+    {
+      "size": "1\"",
+      "material": "A193 B8 Cl-2 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 550,
+      "preloadMinN": 150459,
+      "preloadMaxN": 150459,
+      "torqueMinNm": 543,
+      "torqueMaxNm": 543
+    },
+    {
+      "size": "1\"",
+      "material": "A320 B8 Cl-2 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 550,
+      "preloadMinN": 150459,
+      "preloadMaxN": 150459,
+      "torqueMinNm": 543,
+      "torqueMaxNm": 543
+    },
+    {
+      "size": "1\"",
+      "material": "A193 B8M Cl-2 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 550,
+      "preloadMinN": 150459,
+      "preloadMaxN": 150459,
+      "torqueMinNm": 543,
+      "torqueMaxNm": 543
+    },
+    {
+      "size": "1\"",
+      "material": "A320 B8M Cl-2 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 550,
+      "preloadMinN": 150459,
+      "preloadMaxN": 150459,
+      "torqueMinNm": 543,
+      "torqueMaxNm": 543
+    },
+    {
+      "size": "1 1/8\"",
+      "material": "A320 L7 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 725,
+      "preloadMinN": 258809,
+      "preloadMaxN": 258809,
+      "torqueMinNm": 641,
+      "torqueMaxNm": 1033
+    },
+    {
+      "size": "1 1/8\"",
+      "material": "A320 L7M + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 550,
+      "preloadMinN": 196338,
+      "preloadMaxN": 196338,
+      "torqueMinNm": 641,
+      "torqueMaxNm": 783
+    },
+    {
+      "size": "1 1/8\"",
+      "material": "A193 B7 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 720,
+      "preloadMinN": 257024,
+      "preloadMaxN": 257024,
+      "torqueMinNm": 641,
+      "torqueMaxNm": 1025
+    },
+    {
+      "size": "1 1/8\"",
+      "material": "A193 B7M + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 550,
+      "preloadMinN": 196338,
+      "preloadMaxN": 196338,
+      "torqueMinNm": 641,
+      "torqueMaxNm": 783
+    },
+    {
+      "size": "1 1/8\"",
+      "material": "A479 XM-19_hot rolled (NITRONIC 50HS) + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 725,
+      "preloadMinN": 258809,
+      "preloadMaxN": 258809,
+      "torqueMinNm": 641,
+      "torqueMaxNm": 1033
+    },
+    {
+      "size": "1 1/8\"",
+      "material": "A479 XM-19_annealled (NITRONIC 50) + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 380,
+      "preloadMinN": 135652,
+      "preloadMaxN": 135652,
+      "torqueMinNm": 541,
+      "torqueMaxNm": 541
+    },
+    {
+      "size": "1 1/8\"",
+      "material": "A193 B16 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 725,
+      "preloadMinN": 258809,
+      "preloadMaxN": 258809,
+      "torqueMinNm": 641,
+      "torqueMaxNm": 1033
+    },
+    {
+      "size": "1 1/8\"",
+      "material": "A193 B8 Cl-1 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 205,
+      "preloadMinN": 73180,
+      "preloadMaxN": 73180,
+      "torqueMinNm": 292,
+      "torqueMaxNm": 292
+    },
+    {
+      "size": "1 1/8\"",
+      "material": "A320 B8 Cl-1 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 205,
+      "preloadMinN": 73180,
+      "preloadMaxN": 73180,
+      "torqueMinNm": 292,
+      "torqueMaxNm": 292
+    },
+    {
+      "size": "1 1/8\"",
+      "material": "A193 B8 Cl-2 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 450,
+      "preloadMinN": 160640,
+      "preloadMaxN": 160640,
+      "torqueMinNm": 641,
+      "torqueMaxNm": 641
+    },
+    {
+      "size": "1 1/8\"",
+      "material": "A320 B8 Cl-2 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 450,
+      "preloadMinN": 160640,
+      "preloadMaxN": 160640,
+      "torqueMinNm": 641,
+      "torqueMaxNm": 641
+    },
+    {
+      "size": "1 1/8\"",
+      "material": "A193 B8M Cl-2 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 450,
+      "preloadMinN": 160640,
+      "preloadMaxN": 160640,
+      "torqueMinNm": 641,
+      "torqueMaxNm": 641
+    },
+    {
+      "size": "1 1/8\"",
+      "material": "A320 B8M Cl-2 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 450,
+      "preloadMinN": 160640,
+      "preloadMaxN": 160640,
+      "torqueMinNm": 641,
+      "torqueMaxNm": 641
+    },
+    {
+      "size": "1 1/4\"",
+      "material": "A320 L7 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 725,
+      "preloadMinN": 327322,
+      "preloadMaxN": 327322,
+      "torqueMinNm": 888,
+      "torqueMaxNm": 1431
+    },
+    {
+      "size": "1 1/4\"",
+      "material": "A320 L7M + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 550,
+      "preloadMinN": 248313,
+      "preloadMaxN": 248313,
+      "torqueMinNm": 888,
+      "torqueMaxNm": 1085
+    },
+    {
+      "size": "1 1/4\"",
+      "material": "A193 B7 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 720,
+      "preloadMinN": 325065,
+      "preloadMaxN": 325065,
+      "torqueMinNm": 888,
+      "torqueMaxNm": 1421
+    },
+    {
+      "size": "1 1/4\"",
+      "material": "A193 B7M + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 550,
+      "preloadMinN": 248313,
+      "preloadMaxN": 248313,
+      "torqueMinNm": 888,
+      "torqueMaxNm": 1085
+    },
+    {
+      "size": "1 1/4\"",
+      "material": "A479 XM-19_hot rolled (NITRONIC 50HS) + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 725,
+      "preloadMinN": 327322,
+      "preloadMaxN": 327322,
+      "torqueMinNm": 888,
+      "torqueMaxNm": 1431
+    },
+    {
+      "size": "1 1/4\"",
+      "material": "A479 XM-19_annealled (NITRONIC 50) + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 380,
+      "preloadMinN": 171562,
+      "preloadMaxN": 171562,
+      "torqueMinNm": 750,
+      "torqueMaxNm": 750
+    },
+    {
+      "size": "1 1/4\"",
+      "material": "A193 B16 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 725,
+      "preloadMinN": 327322,
+      "preloadMaxN": 327322,
+      "torqueMinNm": 888,
+      "torqueMaxNm": 1431
+    },
+    {
+      "size": "1 1/4\"",
+      "material": "A193 B8 Cl-1 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 205,
+      "preloadMinN": 92553,
+      "preloadMaxN": 92553,
+      "torqueMinNm": 405,
+      "torqueMaxNm": 405
+    },
+    {
+      "size": "1 1/4\"",
+      "material": "A320 B8 Cl-1 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 205,
+      "preloadMinN": 92553,
+      "preloadMaxN": 92553,
+      "torqueMinNm": 405,
+      "torqueMaxNm": 405
+    },
+    {
+      "size": "1 1/4\"",
+      "material": "A193 B8 Cl-2 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 450,
+      "preloadMinN": 203165,
+      "preloadMaxN": 203165,
+      "torqueMinNm": 888,
+      "torqueMaxNm": 888
+    },
+    {
+      "size": "1 1/4\"",
+      "material": "A320 B8 Cl-2 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 450,
+      "preloadMinN": 203165,
+      "preloadMaxN": 203165,
+      "torqueMinNm": 888,
+      "torqueMaxNm": 888
+    },
+    {
+      "size": "1 1/4\"",
+      "material": "A193 B8M Cl-2 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 450,
+      "preloadMinN": 203165,
+      "preloadMaxN": 203165,
+      "torqueMinNm": 888,
+      "torqueMaxNm": 888
+    },
+    {
+      "size": "1 1/4\"",
+      "material": "A320 B8M Cl-2 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 450,
+      "preloadMinN": 203165,
+      "preloadMaxN": 203165,
+      "torqueMinNm": 888,
+      "torqueMaxNm": 888
+    },
+    {
+      "size": "1 3/8\"",
+      "material": "A320 L7 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 725,
+      "preloadMinN": 403871,
+      "preloadMaxN": 403871,
+      "torqueMinNm": 913,
+      "torqueMaxNm": 1920
+    },
+    {
+      "size": "1 3/8\"",
+      "material": "A320 L7M + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 550,
+      "preloadMinN": 306385,
+      "preloadMaxN": 306385,
+      "torqueMinNm": 913,
+      "torqueMaxNm": 1456
+    },
+    {
+      "size": "1 3/8\"",
+      "material": "A193 B7 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 720,
+      "preloadMinN": 401086,
+      "preloadMaxN": 401086,
+      "torqueMinNm": 913,
+      "torqueMaxNm": 1906
+    },
+    {
+      "size": "1 3/8\"",
+      "material": "A193 B7M + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 550,
+      "preloadMinN": 306385,
+      "preloadMaxN": 306385,
+      "torqueMinNm": 913,
+      "torqueMaxNm": 1456
+    },
+    {
+      "size": "1 3/8\"",
+      "material": "A479 XM-19_hot rolled (NITRONIC 50HS) + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 725,
+      "preloadMinN": 403871,
+      "preloadMaxN": 403871,
+      "torqueMinNm": 913,
+      "torqueMaxNm": 1920
+    },
+    {
+      "size": "1 3/8\"",
+      "material": "A479 XM-19_annealled (NITRONIC 50) + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 380,
+      "preloadMinN": 211684,
+      "preloadMaxN": 211684,
+      "torqueMinNm": 913,
+      "torqueMaxNm": 1006
+    },
+    {
+      "size": "1 3/8\"",
+      "material": "A193 B16 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 725,
+      "preloadMinN": 403871,
+      "preloadMaxN": 403871,
+      "torqueMinNm": 913,
+      "torqueMaxNm": 1920
+    },
+    {
+      "size": "1 3/8\"",
+      "material": "A193 B8 Cl-1 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 205,
+      "preloadMinN": 114198,
+      "preloadMaxN": 114198,
+      "torqueMinNm": 543,
+      "torqueMaxNm": 543
+    },
+    {
+      "size": "1 3/8\"",
+      "material": "A320 B8 Cl-1 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 205,
+      "preloadMinN": 114198,
+      "preloadMaxN": 114198,
+      "torqueMinNm": 543,
+      "torqueMaxNm": 543
+    },
+    {
+      "size": "1 3/8\"",
+      "material": "A193 B8 Cl-2 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 345,
+      "preloadMinN": 192187,
+      "preloadMaxN": 192187,
+      "torqueMinNm": 913,
+      "torqueMaxNm": 913
+    },
+    {
+      "size": "1 3/8\"",
+      "material": "A320 B8 Cl-2 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 345,
+      "preloadMinN": 192187,
+      "preloadMaxN": 192187,
+      "torqueMinNm": 913,
+      "torqueMaxNm": 913
+    },
+    {
+      "size": "1 3/8\"",
+      "material": "A193 B8M Cl-2 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 345,
+      "preloadMinN": 192187,
+      "preloadMaxN": 192187,
+      "torqueMinNm": 913,
+      "torqueMaxNm": 913
+    },
+    {
+      "size": "1 3/8\"",
+      "material": "A320 B8M Cl-2 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 345,
+      "preloadMinN": 192187,
+      "preloadMaxN": 192187,
+      "torqueMinNm": 913,
+      "torqueMaxNm": 913
+    },
+    {
+      "size": "1 1/2\"",
+      "material": "A320 L7 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 725,
+      "preloadMinN": 488456,
+      "preloadMaxN": 488456,
+      "torqueMinNm": 1193,
+      "torqueMaxNm": 2508
+    },
+    {
+      "size": "1 1/2\"",
+      "material": "A320 L7M + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 550,
+      "preloadMinN": 370553,
+      "preloadMaxN": 370553,
+      "torqueMinNm": 1193,
+      "torqueMaxNm": 1903
+    },
+    {
+      "size": "1 1/2\"",
+      "material": "A193 B7 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 720,
+      "preloadMinN": 485088,
+      "preloadMaxN": 485088,
+      "torqueMinNm": 1193,
+      "torqueMaxNm": 2491
+    },
+    {
+      "size": "1 1/2\"",
+      "material": "A193 B7M + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 550,
+      "preloadMinN": 370553,
+      "preloadMaxN": 370553,
+      "torqueMinNm": 1193,
+      "torqueMaxNm": 1903
+    },
+    {
+      "size": "1 1/2\"",
+      "material": "A479 XM-19_hot rolled (NITRONIC 50HS) + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 725,
+      "preloadMinN": 488456,
+      "preloadMaxN": 488456,
+      "torqueMinNm": 1193,
+      "torqueMaxNm": 2508
+    },
+    {
+      "size": "1 1/2\"",
+      "material": "A479 XM-19_annealled (NITRONIC 50) + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 380,
+      "preloadMinN": 256018,
+      "preloadMaxN": 256018,
+      "torqueMinNm": 1193,
+      "torqueMaxNm": 1314
+    },
+    {
+      "size": "1 1/2\"",
+      "material": "A193 B16 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 725,
+      "preloadMinN": 488456,
+      "preloadMaxN": 488456,
+      "torqueMinNm": 1193,
+      "torqueMaxNm": 2508
+    },
+    {
+      "size": "1 1/2\"",
+      "material": "A193 B8 Cl-1 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 205,
+      "preloadMinN": 138115,
+      "preloadMaxN": 138115,
+      "torqueMinNm": 709,
+      "torqueMaxNm": 709
+    },
+    {
+      "size": "1 1/2\"",
+      "material": "A320 B8 Cl-1 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 205,
+      "preloadMinN": 138115,
+      "preloadMaxN": 138115,
+      "torqueMinNm": 709,
+      "torqueMaxNm": 709
+    },
+    {
+      "size": "1 1/2\"",
+      "material": "A193 B8 Cl-2 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 345,
+      "preloadMinN": 232438,
+      "preloadMaxN": 232438,
+      "torqueMinNm": 1193,
+      "torqueMaxNm": 1193
+    },
+    {
+      "size": "1 1/2\"",
+      "material": "A320 B8 Cl-2 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 345,
+      "preloadMinN": 232438,
+      "preloadMaxN": 232438,
+      "torqueMinNm": 1193,
+      "torqueMaxNm": 1193
+    },
+    {
+      "size": "1 1/2\"",
+      "material": "A193 B8M Cl-2 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 345,
+      "preloadMinN": 232438,
+      "preloadMaxN": 232438,
+      "torqueMinNm": 1193,
+      "torqueMaxNm": 1193
+    },
+    {
+      "size": "1 1/2\"",
+      "material": "A320 B8M Cl-2 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 345,
+      "preloadMinN": 232438,
+      "preloadMaxN": 232438,
+      "torqueMinNm": 1193,
+      "torqueMaxNm": 1193
+    },
+    {
+      "size": "1 5/8\"",
+      "material": "A320 L7 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 725,
+      "preloadMinN": 581078,
+      "preloadMaxN": 581078,
+      "torqueMinNm": 1525,
+      "torqueMaxNm": 3205
+    },
+    {
+      "size": "1 5/8\"",
+      "material": "A320 L7M + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 550,
+      "preloadMinN": 440817,
+      "preloadMaxN": 440817,
+      "torqueMinNm": 1525,
+      "torqueMaxNm": 2432
+    },
+    {
+      "size": "1 5/8\"",
+      "material": "A193 B7 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 720,
+      "preloadMinN": 577070,
+      "preloadMaxN": 577070,
+      "torqueMinNm": 1525,
+      "torqueMaxNm": 3183
+    },
+    {
+      "size": "1 5/8\"",
+      "material": "A193 B7M + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 550,
+      "preloadMinN": 440817,
+      "preloadMaxN": 440817,
+      "torqueMinNm": 1525,
+      "torqueMaxNm": 2432
+    },
+    {
+      "size": "1 5/8\"",
+      "material": "A479 XM-19_hot rolled (NITRONIC 50HS) + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 725,
+      "preloadMinN": 581078,
+      "preloadMaxN": 581078,
+      "torqueMinNm": 1525,
+      "torqueMaxNm": 3205
+    },
+    {
+      "size": "1 5/8\"",
+      "material": "A479 XM-19_annealled (NITRONIC 50) + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 380,
+      "preloadMinN": 304565,
+      "preloadMaxN": 304565,
+      "torqueMinNm": 1525,
+      "torqueMaxNm": 1680
+    },
+    {
+      "size": "1 5/8\"",
+      "material": "A193 B16 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 725,
+      "preloadMinN": 581078,
+      "preloadMaxN": 581078,
+      "torqueMinNm": 1525,
+      "torqueMaxNm": 3205
+    },
+    {
+      "size": "1 5/8\"",
+      "material": "A193 B8 Cl-1 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 205,
+      "preloadMinN": 164305,
+      "preloadMaxN": 164305,
+      "torqueMinNm": 906,
+      "torqueMaxNm": 906
+    },
+    {
+      "size": "1 5/8\"",
+      "material": "A320 B8 Cl-1 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 205,
+      "preloadMinN": 164305,
+      "preloadMaxN": 164305,
+      "torqueMinNm": 906,
+      "torqueMaxNm": 906
+    },
+    {
+      "size": "1 5/8\"",
+      "material": "A193 B8 Cl-2 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 345,
+      "preloadMinN": 276513,
+      "preloadMaxN": 276513,
+      "torqueMinNm": 1525,
+      "torqueMaxNm": 1525
+    },
+    {
+      "size": "1 5/8\"",
+      "material": "A320 B8 Cl-2 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 345,
+      "preloadMinN": 276513,
+      "preloadMaxN": 276513,
+      "torqueMinNm": 1525,
+      "torqueMaxNm": 1525
+    },
+    {
+      "size": "1 5/8\"",
+      "material": "A193 B8M Cl-2 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 345,
+      "preloadMinN": 276513,
+      "preloadMaxN": 276513,
+      "torqueMinNm": 1525,
+      "torqueMaxNm": 1525
+    },
+    {
+      "size": "1 5/8\"",
+      "material": "A320 B8M Cl-2 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 345,
+      "preloadMinN": 276513,
+      "preloadMaxN": 276513,
+      "torqueMinNm": 1525,
+      "torqueMaxNm": 1525
+    },
+    {
+      "size": "1 3/4\"",
+      "material": "A320 L7 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 725,
+      "preloadMinN": 681735,
+      "preloadMaxN": 681735,
+      "torqueMinNm": 1913,
+      "torqueMaxNm": 4021
+    },
+    {
+      "size": "1 3/4\"",
+      "material": "A320 L7M + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 550,
+      "preloadMinN": 517178,
+      "preloadMaxN": 517178,
+      "torqueMinNm": 1913,
+      "torqueMaxNm": 3050
+    },
+    {
+      "size": "1 3/4\"",
+      "material": "A193 B7 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 720,
+      "preloadMinN": 677033,
+      "preloadMaxN": 677033,
+      "torqueMinNm": 1913,
+      "torqueMaxNm": 3993
+    },
+    {
+      "size": "1 3/4\"",
+      "material": "A193 B7M + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 550,
+      "preloadMinN": 517178,
+      "preloadMaxN": 517178,
+      "torqueMinNm": 1913,
+      "torqueMaxNm": 3050
+    },
+    {
+      "size": "1 3/4\"",
+      "material": "A479 XM-19_hot rolled (NITRONIC 50HS) + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 725,
+      "preloadMinN": 681735,
+      "preloadMaxN": 681735,
+      "torqueMinNm": 1913,
+      "torqueMaxNm": 4021
+    },
+    {
+      "size": "1 3/4\"",
+      "material": "A479 XM-19_annealled (NITRONIC 50) + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 380,
+      "preloadMinN": 357323,
+      "preloadMaxN": 357323,
+      "torqueMinNm": 1913,
+      "torqueMaxNm": 2107
+    },
+    {
+      "size": "1 3/4\"",
+      "material": "A193 B16 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 725,
+      "preloadMinN": 681735,
+      "preloadMaxN": 681735,
+      "torqueMinNm": 1913,
+      "torqueMaxNm": 4021
+    },
+    {
+      "size": "1 3/4\"",
+      "material": "A193 B8 Cl-1 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 205,
+      "preloadMinN": 192766,
+      "preloadMaxN": 192766,
+      "torqueMinNm": 1137,
+      "torqueMaxNm": 1137
+    },
+    {
+      "size": "1 3/4\"",
+      "material": "A320 B8 Cl-1 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 205,
+      "preloadMinN": 192766,
+      "preloadMaxN": 192766,
+      "torqueMinNm": 1137,
+      "torqueMaxNm": 1137
+    },
+    {
+      "size": "1 3/4\"",
+      "material": "A193 B8 Cl-2 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 345,
+      "preloadMinN": 324412,
+      "preloadMaxN": 324412,
+      "torqueMinNm": 1913,
+      "torqueMaxNm": 1913
+    },
+    {
+      "size": "1 3/4\"",
+      "material": "A320 B8 Cl-2 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 345,
+      "preloadMinN": 324412,
+      "preloadMaxN": 324412,
+      "torqueMinNm": 1913,
+      "torqueMaxNm": 1913
+    },
+    {
+      "size": "1 3/4\"",
+      "material": "A193 B8M Cl-2 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 345,
+      "preloadMinN": 324412,
+      "preloadMaxN": 324412,
+      "torqueMinNm": 1913,
+      "torqueMaxNm": 1913
+    },
+    {
+      "size": "1 3/4\"",
+      "material": "A320 B8M Cl-2 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 345,
+      "preloadMinN": 324412,
+      "preloadMaxN": 324412,
+      "torqueMinNm": 1913,
+      "torqueMaxNm": 1913
+    },
+    {
+      "size": "1 7/8\"",
+      "material": "A320 L7 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 725,
+      "preloadMinN": 790428,
+      "preloadMaxN": 790428,
+      "torqueMinNm": 2362,
+      "torqueMaxNm": 4963
+    },
+    {
+      "size": "1 7/8\"",
+      "material": "A320 L7M + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 550,
+      "preloadMinN": 599635,
+      "preloadMaxN": 599635,
+      "torqueMinNm": 2362,
+      "torqueMaxNm": 3765
+    },
+    {
+      "size": "1 7/8\"",
+      "material": "A193 B7 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 720,
+      "preloadMinN": 784977,
+      "preloadMaxN": 784977,
+      "torqueMinNm": 2362,
+      "torqueMaxNm": 4929
+    },
+    {
+      "size": "1 7/8\"",
+      "material": "A193 B7M + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 550,
+      "preloadMinN": 599635,
+      "preloadMaxN": 599635,
+      "torqueMinNm": 2362,
+      "torqueMaxNm": 3765
+    },
+    {
+      "size": "1 7/8\"",
+      "material": "A479 XM-19_hot rolled (NITRONIC 50HS) + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 725,
+      "preloadMinN": 790428,
+      "preloadMaxN": 790428,
+      "torqueMinNm": 2362,
+      "torqueMaxNm": 4963
+    },
+    {
+      "size": "1 7/8\"",
+      "material": "A479 XM-19_annealled (NITRONIC 50) + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 380,
+      "preloadMinN": 414293,
+      "preloadMaxN": 414293,
+      "torqueMinNm": 2362,
+      "torqueMaxNm": 2601
+    },
+    {
+      "size": "1 7/8\"",
+      "material": "A193 B16 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 725,
+      "preloadMinN": 790428,
+      "preloadMaxN": 790428,
+      "torqueMinNm": 2362,
+      "torqueMaxNm": 4963
+    },
+    {
+      "size": "1 7/8\"",
+      "material": "A193 B8 Cl-1 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 205,
+      "preloadMinN": 223500,
+      "preloadMaxN": 223500,
+      "torqueMinNm": 1403,
+      "torqueMaxNm": 1403
+    },
+    {
+      "size": "1 7/8\"",
+      "material": "A320 B8 Cl-1 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 205,
+      "preloadMinN": 223500,
+      "preloadMaxN": 223500,
+      "torqueMinNm": 1403,
+      "torqueMaxNm": 1403
+    },
+    {
+      "size": "1 7/8\"",
+      "material": "A193 B8 Cl-2 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 345,
+      "preloadMinN": 376135,
+      "preloadMaxN": 376135,
+      "torqueMinNm": 2362,
+      "torqueMaxNm": 2362
+    },
+    {
+      "size": "1 7/8\"",
+      "material": "A320 B8 Cl-2 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 345,
+      "preloadMinN": 376135,
+      "preloadMaxN": 376135,
+      "torqueMinNm": 2362,
+      "torqueMaxNm": 2362
+    },
+    {
+      "size": "1 7/8\"",
+      "material": "A193 B8M Cl-2 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 345,
+      "preloadMinN": 376135,
+      "preloadMaxN": 376135,
+      "torqueMinNm": 2362,
+      "torqueMaxNm": 2362
+    },
+    {
+      "size": "1 7/8\"",
+      "material": "A320 B8M Cl-2 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 345,
+      "preloadMinN": 376135,
+      "preloadMaxN": 376135,
+      "torqueMinNm": 2362,
+      "torqueMaxNm": 2362
+    },
+    {
+      "size": "2\"",
+      "material": "A320 L7 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 725,
+      "preloadMinN": 907158,
+      "preloadMaxN": 907158,
+      "torqueMinNm": 2875,
+      "torqueMaxNm": 6042
+    },
+    {
+      "size": "2\"",
+      "material": "A320 L7M + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 550,
+      "preloadMinN": 688189,
+      "preloadMaxN": 688189,
+      "torqueMinNm": 2875,
+      "torqueMaxNm": 4584
+    },
+    {
+      "size": "2\"",
+      "material": "A193 B7 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 720,
+      "preloadMinN": 900901,
+      "preloadMaxN": 900901,
+      "torqueMinNm": 2875,
+      "torqueMaxNm": 6001
+    },
+    {
+      "size": "2\"",
+      "material": "A193 B7M + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 550,
+      "preloadMinN": 688189,
+      "preloadMaxN": 688189,
+      "torqueMinNm": 2875,
+      "torqueMaxNm": 4584
+    },
+    {
+      "size": "2\"",
+      "material": "A479 XM-19_hot rolled (NITRONIC 50HS) + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 725,
+      "preloadMinN": 907158,
+      "preloadMaxN": 907158,
+      "torqueMinNm": 2875,
+      "torqueMaxNm": 6042
+    },
+    {
+      "size": "2\"",
+      "material": "A479 XM-19_annealled (NITRONIC 50) + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 380,
+      "preloadMinN": 475476,
+      "preloadMaxN": 475476,
+      "torqueMinNm": 2875,
+      "torqueMaxNm": 3167
+    },
+    {
+      "size": "2\"",
+      "material": "A193 B16 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 725,
+      "preloadMinN": 907158,
+      "preloadMaxN": 907158,
+      "torqueMinNm": 2875,
+      "torqueMaxNm": 6042
+    },
+    {
+      "size": "2\"",
+      "material": "A193 B8 Cl-1 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 205,
+      "preloadMinN": 256507,
+      "preloadMaxN": 256507,
+      "torqueMinNm": 1709,
+      "torqueMaxNm": 1709
+    },
+    {
+      "size": "2\"",
+      "material": "A320 B8 Cl-1 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 205,
+      "preloadMinN": 256507,
+      "preloadMaxN": 256507,
+      "torqueMinNm": 1709,
+      "torqueMaxNm": 1709
+    },
+    {
+      "size": "2\"",
+      "material": "A193 B8 Cl-2 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 345,
+      "preloadMinN": 431682,
+      "preloadMaxN": 431682,
+      "torqueMinNm": 2875,
+      "torqueMaxNm": 2875
+    },
+    {
+      "size": "2\"",
+      "material": "A320 B8 Cl-2 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 345,
+      "preloadMinN": 431682,
+      "preloadMaxN": 431682,
+      "torqueMinNm": 2875,
+      "torqueMaxNm": 2875
+    },
+    {
+      "size": "2\"",
+      "material": "A193 B8M Cl-2 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 345,
+      "preloadMinN": 431682,
+      "preloadMaxN": 431682,
+      "torqueMinNm": 2875,
+      "torqueMaxNm": 2875
+    },
+    {
+      "size": "2\"",
+      "material": "A320 B8M Cl-2 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 345,
+      "preloadMinN": 431682,
+      "preloadMaxN": 431682,
+      "torqueMinNm": 2875,
+      "torqueMaxNm": 2875
+    },
+    {
+      "size": "2 1/4\"",
+      "material": "A320 L7 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 725,
+      "preloadMinN": 1164725,
+      "preloadMaxN": 1164725,
+      "torqueMinNm": 4115,
+      "torqueMaxNm": 8647
+    },
+    {
+      "size": "2 1/4\"",
+      "material": "A320 L7M + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 550,
+      "preloadMinN": 883584,
+      "preloadMaxN": 883584,
+      "torqueMinNm": 4115,
+      "torqueMaxNm": 6560
+    },
+    {
+      "size": "2 1/4\"",
+      "material": "A193 B7 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 720,
+      "preloadMinN": 1156692,
+      "preloadMaxN": 1156692,
+      "torqueMinNm": 4115,
+      "torqueMaxNm": 8588
+    },
+    {
+      "size": "2 1/4\"",
+      "material": "A193 B7M + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 550,
+      "preloadMinN": 883584,
+      "preloadMaxN": 883584,
+      "torqueMinNm": 4115,
+      "torqueMaxNm": 6560
+    },
+    {
+      "size": "2 1/4\"",
+      "material": "A479 XM-19_hot rolled (NITRONIC 50HS) + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 515,
+      "preloadMinN": 827356,
+      "preloadMaxN": 827356,
+      "torqueMinNm": 4115,
+      "torqueMaxNm": 6142
+    },
+    {
+      "size": "2 1/4\"",
+      "material": "A479 XM-19_annealled (NITRONIC 50) + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 380,
+      "preloadMinN": 610476,
+      "preloadMaxN": 610476,
+      "torqueMinNm": 4115,
+      "torqueMaxNm": 4532
+    },
+    {
+      "size": "2 1/4\"",
+      "material": "A193 B16 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 725,
+      "preloadMinN": 1164725,
+      "preloadMaxN": 1164725,
+      "torqueMinNm": 4115,
+      "torqueMaxNm": 8647
+    },
+    {
+      "size": "2 1/4\"",
+      "material": "A193 B8 Cl-1 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 205,
+      "preloadMinN": 329336,
+      "preloadMaxN": 329336,
+      "torqueMinNm": 2445,
+      "torqueMaxNm": 2445
+    },
+    {
+      "size": "2 1/4\"",
+      "material": "A320 B8 Cl-1 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 205,
+      "preloadMinN": 329336,
+      "preloadMaxN": 329336,
+      "torqueMinNm": 2445,
+      "torqueMaxNm": 2445
+    },
+    {
+      "size": "2 1/4\"",
+      "material": "A193 B8 Cl-2 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 345,
+      "preloadMinN": 554248,
+      "preloadMaxN": 554248,
+      "torqueMinNm": 4115,
+      "torqueMaxNm": 4115
+    },
+    {
+      "size": "2 1/4\"",
+      "material": "A320 B8 Cl-2 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 345,
+      "preloadMinN": 554248,
+      "preloadMaxN": 554248,
+      "torqueMinNm": 4115,
+      "torqueMaxNm": 4115
+    },
+    {
+      "size": "2 1/4\"",
+      "material": "A193 B8M Cl-2 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 345,
+      "preloadMinN": 554248,
+      "preloadMaxN": 554248,
+      "torqueMinNm": 4115,
+      "torqueMaxNm": 4115
+    },
+    {
+      "size": "2 1/4\"",
+      "material": "A320 B8M Cl-2 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 345,
+      "preloadMinN": 554248,
+      "preloadMaxN": 554248,
+      "torqueMinNm": 4115,
+      "torqueMaxNm": 4115
+    },
+    {
+      "size": "2 1/2\"",
+      "material": "A320 L7 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 725,
+      "preloadMinN": 1454436,
+      "preloadMaxN": 1454436,
+      "torqueMinNm": 5667,
+      "torqueMaxNm": 11908
+    },
+    {
+      "size": "2 1/2\"",
+      "material": "A320 L7M + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 550,
+      "preloadMinN": 1103365,
+      "preloadMaxN": 1103365,
+      "torqueMinNm": 5667,
+      "torqueMaxNm": 9034
+    },
+    {
+      "size": "2 1/2\"",
+      "material": "A193 B7 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 720,
+      "preloadMinN": 1444406,
+      "preloadMaxN": 1444406,
+      "torqueMinNm": 5667,
+      "torqueMaxNm": 11826
+    },
+    {
+      "size": "2 1/2\"",
+      "material": "A193 B7M + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 550,
+      "preloadMinN": 1103365,
+      "preloadMaxN": 1103365,
+      "torqueMinNm": 5667,
+      "torqueMaxNm": 9034
+    },
+    {
+      "size": "2 1/2\"",
+      "material": "A479 XM-19_hot rolled (NITRONIC 50HS) + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 515,
+      "preloadMinN": 1033151,
+      "preloadMaxN": 1033151,
+      "torqueMinNm": 5667,
+      "torqueMaxNm": 8459
+    },
+    {
+      "size": "2 1/2\"",
+      "material": "A479 XM-19_annealled (NITRONIC 50) + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 380,
+      "preloadMinN": 762325,
+      "preloadMaxN": 762325,
+      "torqueMinNm": 5667,
+      "torqueMaxNm": 6242
+    },
+    {
+      "size": "2 1/2\"",
+      "material": "A193 B16 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 725,
+      "preloadMinN": 1454436,
+      "preloadMaxN": 1454436,
+      "torqueMinNm": 5667,
+      "torqueMaxNm": 11908
+    },
+    {
+      "size": "2 1/2\"",
+      "material": "A193 B8 Cl-1 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 205,
+      "preloadMinN": 411254,
+      "preloadMaxN": 411254,
+      "torqueMinNm": 3367,
+      "torqueMaxNm": 3367
+    },
+    {
+      "size": "2 1/2\"",
+      "material": "A320 B8 Cl-1 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 205,
+      "preloadMinN": 411254,
+      "preloadMaxN": 411254,
+      "torqueMinNm": 3367,
+      "torqueMaxNm": 3367
+    },
+    {
+      "size": "2 1/2\"",
+      "material": "A193 B8 Cl-2 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 345,
+      "preloadMinN": 692111,
+      "preloadMaxN": 692111,
+      "torqueMinNm": 5667,
+      "torqueMaxNm": 5667
+    },
+    {
+      "size": "2 1/2\"",
+      "material": "A320 B8 Cl-2 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 345,
+      "preloadMinN": 692111,
+      "preloadMaxN": 692111,
+      "torqueMinNm": 5667,
+      "torqueMaxNm": 5667
+    },
+    {
+      "size": "2 1/2\"",
+      "material": "A193 B8M Cl-2 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 345,
+      "preloadMinN": 692111,
+      "preloadMaxN": 692111,
+      "torqueMinNm": 5667,
+      "torqueMaxNm": 5667
+    },
+    {
+      "size": "2 1/2\"",
+      "material": "A320 B8M Cl-2 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 345,
+      "preloadMinN": 692111,
+      "preloadMaxN": 692111,
+      "torqueMinNm": 5667,
+      "torqueMaxNm": 5667
+    },
+    {
+      "size": "2 3/4\"",
+      "material": "A320 L7 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 655,
+      "preloadMinN": 1604788,
+      "preloadMaxN": 1604788,
+      "torqueMinNm": 7566,
+      "torqueMaxNm": 14364
+    },
+    {
+      "size": "2 3/4\"",
+      "material": "A320 L7M + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 550,
+      "preloadMinN": 1347532,
+      "preloadMaxN": 1347532,
+      "torqueMinNm": 7566,
+      "torqueMaxNm": 12062
+    },
+    {
+      "size": "2 3/4\"",
+      "material": "A193 B7 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 655,
+      "preloadMinN": 1604788,
+      "preloadMaxN": 1604788,
+      "torqueMinNm": 7566,
+      "torqueMaxNm": 14364
+    },
+    {
+      "size": "2 3/4\"",
+      "material": "A193 B7M + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 550,
+      "preloadMinN": 1347532,
+      "preloadMaxN": 1347532,
+      "torqueMinNm": 7566,
+      "torqueMaxNm": 12062
+    },
+    {
+      "size": "2 3/4\"",
+      "material": "A479 XM-19_hot rolled (NITRONIC 50HS) + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 515,
+      "preloadMinN": 1261780,
+      "preloadMaxN": 1261780,
+      "torqueMinNm": 7566,
+      "torqueMaxNm": 11294
+    },
+    {
+      "size": "2 3/4\"",
+      "material": "A479 XM-19_annealled (NITRONIC 50) + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 380,
+      "preloadMinN": 931022,
+      "preloadMaxN": 931022,
+      "torqueMinNm": 7566,
+      "torqueMaxNm": 8334
+    },
+    {
+      "size": "2 3/4\"",
+      "material": "A193 B16 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 655,
+      "preloadMinN": 1604788,
+      "preloadMaxN": 1604788,
+      "torqueMinNm": 7566,
+      "torqueMaxNm": 14364
+    },
+    {
+      "size": "2 3/4\"",
+      "material": "A193 B8 Cl-1 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 205,
+      "preloadMinN": 502262,
+      "preloadMaxN": 502262,
+      "torqueMinNm": 4496,
+      "torqueMaxNm": 4496
+    },
+    {
+      "size": "2 3/4\"",
+      "material": "A320 B8 Cl-1 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 205,
+      "preloadMinN": 502262,
+      "preloadMaxN": 502262,
+      "torqueMinNm": 4496,
+      "torqueMaxNm": 4496
+    },
+    {
+      "size": "2 3/4\"",
+      "material": "A193 B8 Cl-2 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 345,
+      "preloadMinN": 845270,
+      "preloadMaxN": 845270,
+      "torqueMinNm": 7566,
+      "torqueMaxNm": 7566
+    },
+    {
+      "size": "2 3/4\"",
+      "material": "A320 B8 Cl-2 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 345,
+      "preloadMinN": 845270,
+      "preloadMaxN": 845270,
+      "torqueMinNm": 7566,
+      "torqueMaxNm": 7566
+    },
+    {
+      "size": "2 3/4\"",
+      "material": "A193 B8M Cl-2 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 345,
+      "preloadMinN": 845270,
+      "preloadMaxN": 845270,
+      "torqueMinNm": 7566,
+      "torqueMaxNm": 7566
+    },
+    {
+      "size": "2 3/4\"",
+      "material": "A320 B8M Cl-2 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 345,
+      "preloadMinN": 845270,
+      "preloadMaxN": 845270,
+      "torqueMinNm": 7566,
+      "torqueMaxNm": 7566
+    },
+    {
+      "size": "3\"",
+      "material": "A320 L7 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 655,
+      "preloadMinN": 1924608,
+      "preloadMaxN": 1924608,
+      "torqueMinNm": 9848,
+      "torqueMaxNm": 18696
+    },
+    {
+      "size": "3\"",
+      "material": "A320 L7M + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 550,
+      "preloadMinN": 1616083,
+      "preloadMaxN": 1616083,
+      "torqueMinNm": 9848,
+      "torqueMaxNm": 15699
+    },
+    {
+      "size": "3\"",
+      "material": "A193 B7 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 655,
+      "preloadMinN": 1924608,
+      "preloadMaxN": 1924608,
+      "torqueMinNm": 9848,
+      "torqueMaxNm": 18696
+    },
+    {
+      "size": "3\"",
+      "material": "A193 B7M + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 550,
+      "preloadMinN": 1616083,
+      "preloadMaxN": 1616083,
+      "torqueMinNm": 9848,
+      "torqueMaxNm": 15699
+    },
+    {
+      "size": "3\"",
+      "material": "A479 XM-19_hot rolled (NITRONIC 50HS) + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 515,
+      "preloadMinN": 1513242,
+      "preloadMaxN": 1513242,
+      "torqueMinNm": 9848,
+      "torqueMaxNm": 14700
+    },
+    {
+      "size": "3\"",
+      "material": "A479 XM-19_annealled (NITRONIC 50) + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 380,
+      "preloadMinN": 1116567,
+      "preloadMaxN": 1116567,
+      "torqueMinNm": 9848,
+      "torqueMaxNm": 10847
+    },
+    {
+      "size": "3\"",
+      "material": "A193 B16 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 655,
+      "preloadMinN": 1924608,
+      "preloadMaxN": 1924608,
+      "torqueMinNm": 9848,
+      "torqueMaxNm": 18696
+    },
+    {
+      "size": "3\"",
+      "material": "A193 B8 Cl-1 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 205,
+      "preloadMinN": 602358,
+      "preloadMaxN": 602358,
+      "torqueMinNm": 5852,
+      "torqueMaxNm": 5852
+    },
+    {
+      "size": "3\"",
+      "material": "A320 B8 Cl-1 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 205,
+      "preloadMinN": 602358,
+      "preloadMaxN": 602358,
+      "torqueMinNm": 5852,
+      "torqueMaxNm": 5852
+    },
+    {
+      "size": "3\"",
+      "material": "A193 B8 Cl-2 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 345,
+      "preloadMinN": 1013725,
+      "preloadMaxN": 1013725,
+      "torqueMinNm": 9848,
+      "torqueMaxNm": 9848
+    },
+    {
+      "size": "3\"",
+      "material": "A320 B8 Cl-2 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 345,
+      "preloadMinN": 1013725,
+      "preloadMaxN": 1013725,
+      "torqueMinNm": 9848,
+      "torqueMaxNm": 9848
+    },
+    {
+      "size": "3\"",
+      "material": "A193 B8M Cl-2 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 345,
+      "preloadMinN": 1013725,
+      "preloadMaxN": 1013725,
+      "torqueMinNm": 9848,
+      "torqueMaxNm": 9848
+    },
+    {
+      "size": "3\"",
+      "material": "A320 B8M Cl-2 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 345,
+      "preloadMinN": 1013725,
+      "preloadMaxN": 1013725,
+      "torqueMinNm": 9848,
+      "torqueMaxNm": 9848
+    },
+    {
+      "size": "3 1/4\"",
+      "material": "A320 L7 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 655,
+      "preloadMinN": 2273470,
+      "preloadMaxN": 2273470,
+      "torqueMinNm": 12547,
+      "torqueMaxNm": 23821
+    },
+    {
+      "size": "3 1/4\"",
+      "material": "A320 L7M + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 550,
+      "preloadMinN": 1909020,
+      "preloadMaxN": 1909020,
+      "torqueMinNm": 12547,
+      "torqueMaxNm": 20002
+    },
+    {
+      "size": "3 1/4\"",
+      "material": "A193 B7 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 655,
+      "preloadMinN": 2273470,
+      "preloadMaxN": 2273470,
+      "torqueMinNm": 12547,
+      "torqueMaxNm": 23821
+    },
+    {
+      "size": "3 1/4\"",
+      "material": "A193 B7M + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 550,
+      "preloadMinN": 1909020,
+      "preloadMaxN": 1909020,
+      "torqueMinNm": 12547,
+      "torqueMaxNm": 20002
+    },
+    {
+      "size": "3 1/4\"",
+      "material": "A479 XM-19_hot rolled (NITRONIC 50HS) + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 415,
+      "preloadMinN": 1440443,
+      "preloadMaxN": 1440443,
+      "torqueMinNm": 12547,
+      "torqueMaxNm": 15093
+    },
+    {
+      "size": "3 1/4\"",
+      "material": "A479 XM-19_annealled (NITRONIC 50) + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 380,
+      "preloadMinN": 1318959,
+      "preloadMaxN": 1318959,
+      "torqueMinNm": 12547,
+      "torqueMaxNm": 13820
+    },
+    {
+      "size": "3 1/4\"",
+      "material": "A193 B16 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 655,
+      "preloadMinN": 2273470,
+      "preloadMaxN": 2273470,
+      "torqueMinNm": 12547,
+      "torqueMaxNm": 23821
+    },
+    {
+      "size": "3 1/4\"",
+      "material": "A193 B8 Cl-1 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 205,
+      "preloadMinN": 711544,
+      "preloadMaxN": 711544,
+      "torqueMinNm": 7455,
+      "torqueMaxNm": 7455
+    },
+    {
+      "size": "3 1/4\"",
+      "material": "A320 B8 Cl-1 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 205,
+      "preloadMinN": 711544,
+      "preloadMaxN": 711544,
+      "torqueMinNm": 7455,
+      "torqueMaxNm": 7455
+    },
+    {
+      "size": "3 1/4\"",
+      "material": "A193 B8 Cl-2 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 345,
+      "preloadMinN": 1197476,
+      "preloadMaxN": 1197476,
+      "torqueMinNm": 12547,
+      "torqueMaxNm": 12547
+    },
+    {
+      "size": "3 1/4\"",
+      "material": "A320 B8 Cl-2 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 345,
+      "preloadMinN": 1197476,
+      "preloadMaxN": 1197476,
+      "torqueMinNm": 12547,
+      "torqueMaxNm": 12547
+    },
+    {
+      "size": "3 1/4\"",
+      "material": "A193 B8M Cl-2 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 345,
+      "preloadMinN": 1197476,
+      "preloadMaxN": 1197476,
+      "torqueMinNm": 12547,
+      "torqueMaxNm": 12547
+    },
+    {
+      "size": "3 1/4\"",
+      "material": "A320 B8M Cl-2 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 345,
+      "preloadMinN": 1197476,
+      "preloadMaxN": 1197476,
+      "torqueMinNm": 12547,
+      "torqueMaxNm": 12547
+    },
+    {
+      "size": "3 1/2\"",
+      "material": "A320 L7 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 655,
+      "preloadMinN": 2651372,
+      "preloadMaxN": 2651372,
+      "torqueMinNm": 15699,
+      "torqueMaxNm": 29805
+    },
+    {
+      "size": "3 1/2\"",
+      "material": "A320 L7M + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 550,
+      "preloadMinN": 2226342,
+      "preloadMaxN": 2226342,
+      "torqueMinNm": 15699,
+      "torqueMaxNm": 25027
+    },
+    {
+      "size": "3 1/2\"",
+      "material": "A193 B7 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 655,
+      "preloadMinN": 2651372,
+      "preloadMaxN": 2651372,
+      "torqueMinNm": 15699,
+      "torqueMaxNm": 29805
+    },
+    {
+      "size": "3 1/2\"",
+      "material": "A193 B7M + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 550,
+      "preloadMinN": 2226342,
+      "preloadMaxN": 2226342,
+      "torqueMinNm": 15699,
+      "torqueMaxNm": 25027
+    },
+    {
+      "size": "3 1/2\"",
+      "material": "A479 XM-19_hot rolled (NITRONIC 50HS) + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 415,
+      "preloadMinN": 1679877,
+      "preloadMaxN": 1679877,
+      "torqueMinNm": 15699,
+      "torqueMaxNm": 18884
+    },
+    {
+      "size": "3 1/2\"",
+      "material": "A479 XM-19_annealled (NITRONIC 50) + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 380,
+      "preloadMinN": 1538200,
+      "preloadMaxN": 1538200,
+      "torqueMinNm": 15699,
+      "torqueMaxNm": 17291
+    },
+    {
+      "size": "3 1/2\"",
+      "material": "A193 B16 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 655,
+      "preloadMinN": 2651372,
+      "preloadMaxN": 2651372,
+      "torqueMinNm": 15699,
+      "torqueMaxNm": 29805
+    },
+    {
+      "size": "3 1/2\"",
+      "material": "A193 B8 Cl-1 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 205,
+      "preloadMinN": 829819,
+      "preloadMaxN": 829819,
+      "torqueMinNm": 9328,
+      "torqueMaxNm": 9328
+    },
+    {
+      "size": "3 1/2\"",
+      "material": "A320 B8 Cl-1 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 205,
+      "preloadMinN": 829819,
+      "preloadMaxN": 829819,
+      "torqueMinNm": 9328,
+      "torqueMaxNm": 9328
+    },
+    {
+      "size": "3 1/2\"",
+      "material": "A193 B8 Cl-2 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 345,
+      "preloadMinN": 1396524,
+      "preloadMaxN": 1396524,
+      "torqueMinNm": 15699,
+      "torqueMaxNm": 15699
+    },
+    {
+      "size": "3 1/2\"",
+      "material": "A320 B8 Cl-2 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 345,
+      "preloadMinN": 1396524,
+      "preloadMaxN": 1396524,
+      "torqueMinNm": 15699,
+      "torqueMaxNm": 15699
+    },
+    {
+      "size": "3 1/2\"",
+      "material": "A193 B8M Cl-2 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 345,
+      "preloadMinN": 1396524,
+      "preloadMaxN": 1396524,
+      "torqueMinNm": 15699,
+      "torqueMaxNm": 15699
+    },
+    {
+      "size": "3 1/2\"",
+      "material": "A320 B8M Cl-2 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 345,
+      "preloadMinN": 1396524,
+      "preloadMaxN": 1396524,
+      "torqueMinNm": 15699,
+      "torqueMaxNm": 15699
+    },
+    {
+      "size": "3 3/4\"",
+      "material": "A320 L7 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 655,
+      "preloadMinN": 3058314,
+      "preloadMaxN": 3058314,
+      "torqueMinNm": 19338,
+      "torqueMaxNm": 36714
+    },
+    {
+      "size": "3 3/4\"",
+      "material": "A320 L7M + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 550,
+      "preloadMinN": 2568050,
+      "preloadMaxN": 2568050,
+      "torqueMinNm": 19338,
+      "torqueMaxNm": 30829
+    },
+    {
+      "size": "3 3/4\"",
+      "material": "A193 B7 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 655,
+      "preloadMinN": 3058314,
+      "preloadMaxN": 3058314,
+      "torqueMinNm": 19338,
+      "torqueMaxNm": 36714
+    },
+    {
+      "size": "3 3/4\"",
+      "material": "A193 B7M + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 550,
+      "preloadMinN": 2568050,
+      "preloadMaxN": 2568050,
+      "torqueMinNm": 19338,
+      "torqueMaxNm": 30829
+    },
+    {
+      "size": "3 3/4\"",
+      "material": "A479 XM-19_hot rolled (NITRONIC 50HS) + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 415,
+      "preloadMinN": 1937710,
+      "preloadMaxN": 1937710,
+      "torqueMinNm": 19338,
+      "torqueMaxNm": 23262
+    },
+    {
+      "size": "3 3/4\"",
+      "material": "A479 XM-19_annealled (NITRONIC 50) + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 380,
+      "preloadMinN": 1774289,
+      "preloadMaxN": 1774289,
+      "torqueMinNm": 19338,
+      "torqueMaxNm": 21300
+    },
+    {
+      "size": "3 3/4\"",
+      "material": "A193 B16 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 655,
+      "preloadMinN": 3058314,
+      "preloadMaxN": 3058314,
+      "torqueMinNm": 19338,
+      "torqueMaxNm": 36714
+    },
+    {
+      "size": "3 3/4\"",
+      "material": "A193 B8 Cl-1 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 205,
+      "preloadMinN": 957182,
+      "preloadMaxN": 957182,
+      "torqueMinNm": 11491,
+      "torqueMaxNm": 11491
+    },
+    {
+      "size": "3 3/4\"",
+      "material": "A320 B8 Cl-1 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 205,
+      "preloadMinN": 957182,
+      "preloadMaxN": 957182,
+      "torqueMinNm": 11491,
+      "torqueMaxNm": 11491
+    },
+    {
+      "size": "3 3/4\"",
+      "material": "A193 B8 Cl-2 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 345,
+      "preloadMinN": 1610868,
+      "preloadMaxN": 1610868,
+      "torqueMinNm": 19338,
+      "torqueMaxNm": 19338
+    },
+    {
+      "size": "3 3/4\"",
+      "material": "A320 B8 Cl-2 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 345,
+      "preloadMinN": 1610868,
+      "preloadMaxN": 1610868,
+      "torqueMinNm": 19338,
+      "torqueMaxNm": 19338
+    },
+    {
+      "size": "3 3/4\"",
+      "material": "A193 B8M Cl-2 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 345,
+      "preloadMinN": 1610868,
+      "preloadMaxN": 1610868,
+      "torqueMinNm": 19338,
+      "torqueMaxNm": 19338
+    },
+    {
+      "size": "3 3/4\"",
+      "material": "A320 B8M Cl-2 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 345,
+      "preloadMinN": 1610868,
+      "preloadMaxN": 1610868,
+      "torqueMinNm": 19338,
+      "torqueMaxNm": 19338
+    },
+    {
+      "size": "4\"",
+      "material": "A320 L7 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 655,
+      "preloadMinN": 3494297,
+      "preloadMaxN": 3494297,
+      "torqueMinNm": 23500,
+      "torqueMaxNm": 44616
+    },
+    {
+      "size": "4\"",
+      "material": "A320 L7M + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 550,
+      "preloadMinN": 2934143,
+      "preloadMaxN": 2934143,
+      "torqueMinNm": 23500,
+      "torqueMaxNm": 37464
+    },
+    {
+      "size": "4\"",
+      "material": "A193 B7 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 655,
+      "preloadMinN": 3494297,
+      "preloadMaxN": 3494297,
+      "torqueMinNm": 23500,
+      "torqueMaxNm": 44616
+    },
+    {
+      "size": "4\"",
+      "material": "A193 B7M + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 550,
+      "preloadMinN": 2934143,
+      "preloadMaxN": 2934143,
+      "torqueMinNm": 23500,
+      "torqueMaxNm": 37464
+    },
+    {
+      "size": "4\"",
+      "material": "A479 XM-19_hot rolled (NITRONIC 50HS) + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 415,
+      "preloadMinN": 2213944,
+      "preloadMaxN": 2213944,
+      "torqueMinNm": 23500,
+      "torqueMaxNm": 28268
+    },
+    {
+      "size": "4\"",
+      "material": "A479 XM-19_annealled (NITRONIC 50) + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 380,
+      "preloadMinN": 2027226,
+      "preloadMaxN": 2027226,
+      "torqueMinNm": 23500,
+      "torqueMaxNm": 25884
+    },
+    {
+      "size": "4\"",
+      "material": "A193 B16 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 655,
+      "preloadMinN": 3494297,
+      "preloadMaxN": 3494297,
+      "torqueMinNm": 23500,
+      "torqueMaxNm": 44616
+    },
+    {
+      "size": "4\"",
+      "material": "A193 B8 Cl-1 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 205,
+      "preloadMinN": 1093635,
+      "preloadMaxN": 1093635,
+      "torqueMinNm": 13964,
+      "torqueMaxNm": 13964
+    },
+    {
+      "size": "4\"",
+      "material": "A320 B8 Cl-1 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 205,
+      "preloadMinN": 1093635,
+      "preloadMaxN": 1093635,
+      "torqueMinNm": 13964,
+      "torqueMaxNm": 13964
+    },
+    {
+      "size": "4\"",
+      "material": "A193 B8 Cl-2 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 345,
+      "preloadMinN": 1840508,
+      "preloadMaxN": 1840508,
+      "torqueMinNm": 23500,
+      "torqueMaxNm": 23500
+    },
+    {
+      "size": "4\"",
+      "material": "A320 B8 Cl-2 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 345,
+      "preloadMinN": 1840508,
+      "preloadMaxN": 1840508,
+      "torqueMinNm": 23500,
+      "torqueMaxNm": 23500
+    },
+    {
+      "size": "4\"",
+      "material": "A193 B8M Cl-2 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 345,
+      "preloadMinN": 1840508,
+      "preloadMaxN": 1840508,
+      "torqueMinNm": 23500,
+      "torqueMaxNm": 23500
+    },
+    {
+      "size": "4\"",
+      "material": "A320 B8M Cl-2 + XYLAN",
+      "xylan": "yes",
+      "preloadSy": 345,
+      "preloadMinN": 1840508,
+      "preloadMaxN": 1840508,
+      "torqueMinNm": 23500,
+      "torqueMaxNm": 23500
+    },
     {
       "size": "5/16\"",
       "material": "A320 L7",
@@ -5066,3256 +8316,6 @@
       "preloadMaxN": 1840508,
       "torqueMinNm": 52426,
       "torqueMaxNm": 52426
-    },
-    {
-      "size": "5/16\"",
-      "material": "A320 L7 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 725,
-      "preloadMinN": 17167,
-      "preloadMaxN": 17167,
-      "torqueMinNm": 20,
-      "torqueMaxNm": 22
-    },
-    {
-      "size": "5/16\"",
-      "material": "A320 L7M + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 550,
-      "preloadMinN": 13023,
-      "preloadMaxN": 13023,
-      "torqueMinNm": 17,
-      "torqueMaxNm": 17
-    },
-    {
-      "size": "5/16\"",
-      "material": "A193 B7 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 720,
-      "preloadMinN": 17048,
-      "preloadMaxN": 17048,
-      "torqueMinNm": 20,
-      "torqueMaxNm": 22
-    },
-    {
-      "size": "5/16\"",
-      "material": "A193 B7M + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 550,
-      "preloadMinN": 13023,
-      "preloadMaxN": 13023,
-      "torqueMinNm": 17,
-      "torqueMaxNm": 17
-    },
-    {
-      "size": "5/16\"",
-      "material": "A479 XM-19_hot rolled (NITRONIC 50HS) + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 725,
-      "preloadMinN": 17167,
-      "preloadMaxN": 17167,
-      "torqueMinNm": 20,
-      "torqueMaxNm": 22
-    },
-    {
-      "size": "5/16\"",
-      "material": "A479 XM-19_annealled (NITRONIC 50) + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 380,
-      "preloadMinN": 8998,
-      "preloadMaxN": 8998,
-      "torqueMinNm": 12,
-      "torqueMaxNm": 12
-    },
-    {
-      "size": "5/16\"",
-      "material": "A193 B16 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 725,
-      "preloadMinN": 17167,
-      "preloadMaxN": 17167,
-      "torqueMinNm": 20,
-      "torqueMaxNm": 22
-    },
-    {
-      "size": "5/16\"",
-      "material": "A193 B8 Cl-1 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 205,
-      "preloadMinN": 4854,
-      "preloadMaxN": 4854,
-      "torqueMinNm": 6,
-      "torqueMaxNm": 6
-    },
-    {
-      "size": "5/16\"",
-      "material": "A320 B8 Cl-1 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 205,
-      "preloadMinN": 4854,
-      "preloadMaxN": 4854,
-      "torqueMinNm": 6,
-      "torqueMaxNm": 6
-    },
-    {
-      "size": "5/16\"",
-      "material": "A193 B8 Cl-2 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 690,
-      "preloadMinN": 16338,
-      "preloadMaxN": 16338,
-      "torqueMinNm": 21,
-      "torqueMaxNm": 21
-    },
-    {
-      "size": "5/16\"",
-      "material": "A320 B8 Cl-2 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 690,
-      "preloadMinN": 16338,
-      "preloadMaxN": 16338,
-      "torqueMinNm": 21,
-      "torqueMaxNm": 21
-    },
-    {
-      "size": "5/16\"",
-      "material": "A193 B8M Cl-2 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 655,
-      "preloadMinN": 15509,
-      "preloadMaxN": 15509,
-      "torqueMinNm": 20,
-      "torqueMaxNm": 20
-    },
-    {
-      "size": "5/16\"",
-      "material": "A320 B8M Cl-2 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 655,
-      "preloadMinN": 15509,
-      "preloadMaxN": 15509,
-      "torqueMinNm": 20,
-      "torqueMaxNm": 20
-    },
-    {
-      "size": "3/8\"",
-      "material": "A320 L7 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 725,
-      "preloadMinN": 25372,
-      "preloadMaxN": 25372,
-      "torqueMinNm": 34,
-      "torqueMaxNm": 38
-    },
-    {
-      "size": "3/8\"",
-      "material": "A320 L7M + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 550,
-      "preloadMinN": 19247,
-      "preloadMaxN": 19247,
-      "torqueMinNm": 29,
-      "torqueMaxNm": 29
-    },
-    {
-      "size": "3/8\"",
-      "material": "A193 B7 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 720,
-      "preloadMinN": 25197,
-      "preloadMaxN": 25197,
-      "torqueMinNm": 34,
-      "torqueMaxNm": 38
-    },
-    {
-      "size": "3/8\"",
-      "material": "A193 B7M + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 550,
-      "preloadMinN": 19247,
-      "preloadMaxN": 19247,
-      "torqueMinNm": 29,
-      "torqueMaxNm": 29
-    },
-    {
-      "size": "3/8\"",
-      "material": "A479 XM-19_hot rolled (NITRONIC 50HS) + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 725,
-      "preloadMinN": 25372,
-      "preloadMaxN": 25372,
-      "torqueMinNm": 34,
-      "torqueMaxNm": 38
-    },
-    {
-      "size": "3/8\"",
-      "material": "A479 XM-19_annealled (NITRONIC 50) + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 380,
-      "preloadMinN": 13298,
-      "preloadMaxN": 13298,
-      "torqueMinNm": 20,
-      "torqueMaxNm": 20
-    },
-    {
-      "size": "3/8\"",
-      "material": "A193 B16 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 725,
-      "preloadMinN": 25372,
-      "preloadMaxN": 25372,
-      "torqueMinNm": 34,
-      "torqueMaxNm": 38
-    },
-    {
-      "size": "3/8\"",
-      "material": "A193 B8 Cl-1 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 205,
-      "preloadMinN": 7174,
-      "preloadMaxN": 7174,
-      "torqueMinNm": 11,
-      "torqueMaxNm": 11
-    },
-    {
-      "size": "3/8\"",
-      "material": "A320 B8 Cl-1 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 205,
-      "preloadMinN": 7174,
-      "preloadMaxN": 7174,
-      "torqueMinNm": 11,
-      "torqueMaxNm": 11
-    },
-    {
-      "size": "3/8\"",
-      "material": "A193 B8 Cl-2 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 690,
-      "preloadMinN": 24147,
-      "preloadMaxN": 24147,
-      "torqueMinNm": 36,
-      "torqueMaxNm": 36
-    },
-    {
-      "size": "3/8\"",
-      "material": "A320 B8 Cl-2 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 690,
-      "preloadMinN": 24147,
-      "preloadMaxN": 24147,
-      "torqueMinNm": 36,
-      "torqueMaxNm": 36
-    },
-    {
-      "size": "3/8\"",
-      "material": "A193 B8M Cl-2 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 655,
-      "preloadMinN": 22922,
-      "preloadMaxN": 22922,
-      "torqueMinNm": 34,
-      "torqueMaxNm": 34
-    },
-    {
-      "size": "3/8\"",
-      "material": "A320 B8M Cl-2 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 655,
-      "preloadMinN": 22922,
-      "preloadMaxN": 22922,
-      "torqueMinNm": 34,
-      "torqueMaxNm": 34
-    },
-    {
-      "size": "7/16\"",
-      "material": "A320 L7 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 725,
-      "preloadMinN": 34807,
-      "preloadMaxN": 34807,
-      "torqueMinNm": 54,
-      "torqueMaxNm": 60
-    },
-    {
-      "size": "7/16\"",
-      "material": "A320 L7M + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 550,
-      "preloadMinN": 26406,
-      "preloadMaxN": 26406,
-      "torqueMinNm": 45,
-      "torqueMaxNm": 45
-    },
-    {
-      "size": "7/16\"",
-      "material": "A193 B7 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 720,
-      "preloadMinN": 34567,
-      "preloadMaxN": 34567,
-      "torqueMinNm": 54,
-      "torqueMaxNm": 60
-    },
-    {
-      "size": "7/16\"",
-      "material": "A193 B7M + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 550,
-      "preloadMinN": 26406,
-      "preloadMaxN": 26406,
-      "torqueMinNm": 45,
-      "torqueMaxNm": 45
-    },
-    {
-      "size": "7/16\"",
-      "material": "A479 XM-19_hot rolled (NITRONIC 50HS) + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 725,
-      "preloadMinN": 34807,
-      "preloadMaxN": 34807,
-      "torqueMinNm": 54,
-      "torqueMaxNm": 60
-    },
-    {
-      "size": "7/16\"",
-      "material": "A479 XM-19_annealled (NITRONIC 50) + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 380,
-      "preloadMinN": 18244,
-      "preloadMaxN": 18244,
-      "torqueMinNm": 31,
-      "torqueMaxNm": 31
-    },
-    {
-      "size": "7/16\"",
-      "material": "A193 B16 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 725,
-      "preloadMinN": 34807,
-      "preloadMaxN": 34807,
-      "torqueMinNm": 54,
-      "torqueMaxNm": 60
-    },
-    {
-      "size": "7/16\"",
-      "material": "A193 B8 Cl-1 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 205,
-      "preloadMinN": 9842,
-      "preloadMaxN": 9842,
-      "torqueMinNm": 17,
-      "torqueMaxNm": 17
-    },
-    {
-      "size": "7/16\"",
-      "material": "A320 B8 Cl-1 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 205,
-      "preloadMinN": 9842,
-      "preloadMaxN": 9842,
-      "torqueMinNm": 17,
-      "torqueMaxNm": 17
-    },
-    {
-      "size": "7/16\"",
-      "material": "A193 B8 Cl-2 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 690,
-      "preloadMinN": 33127,
-      "preloadMaxN": 33127,
-      "torqueMinNm": 57,
-      "torqueMaxNm": 57
-    },
-    {
-      "size": "7/16\"",
-      "material": "A320 B8 Cl-2 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 690,
-      "preloadMinN": 33127,
-      "preloadMaxN": 33127,
-      "torqueMinNm": 57,
-      "torqueMaxNm": 57
-    },
-    {
-      "size": "7/16\"",
-      "material": "A193 B8M Cl-2 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 655,
-      "preloadMinN": 31447,
-      "preloadMaxN": 31447,
-      "torqueMinNm": 54,
-      "torqueMaxNm": 54
-    },
-    {
-      "size": "7/16\"",
-      "material": "A320 B8M Cl-2 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 655,
-      "preloadMinN": 31447,
-      "preloadMaxN": 31447,
-      "torqueMinNm": 54,
-      "torqueMaxNm": 54
-    },
-    {
-      "size": "1/2\"",
-      "material": "A320 L7 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 725,
-      "preloadMinN": 46467,
-      "preloadMaxN": 46467,
-      "torqueMinNm": 81,
-      "torqueMaxNm": 90
-    },
-    {
-      "size": "1/2\"",
-      "material": "A320 L7M + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 550,
-      "preloadMinN": 35251,
-      "preloadMaxN": 35251,
-      "torqueMinNm": 68,
-      "torqueMaxNm": 68
-    },
-    {
-      "size": "1/2\"",
-      "material": "A193 B7 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 720,
-      "preloadMinN": 46147,
-      "preloadMaxN": 46147,
-      "torqueMinNm": 81,
-      "torqueMaxNm": 89
-    },
-    {
-      "size": "1/2\"",
-      "material": "A193 B7M + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 550,
-      "preloadMinN": 35251,
-      "preloadMaxN": 35251,
-      "torqueMinNm": 68,
-      "torqueMaxNm": 68
-    },
-    {
-      "size": "1/2\"",
-      "material": "A479 XM-19_hot rolled (NITRONIC 50HS) + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 725,
-      "preloadMinN": 46467,
-      "preloadMaxN": 46467,
-      "torqueMinNm": 81,
-      "torqueMaxNm": 90
-    },
-    {
-      "size": "1/2\"",
-      "material": "A479 XM-19_annealled (NITRONIC 50) + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 380,
-      "preloadMinN": 24355,
-      "preloadMaxN": 24355,
-      "torqueMinNm": 47,
-      "torqueMaxNm": 47
-    },
-    {
-      "size": "1/2\"",
-      "material": "A193 B16 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 725,
-      "preloadMinN": 46467,
-      "preloadMaxN": 46467,
-      "torqueMinNm": 81,
-      "torqueMaxNm": 90
-    },
-    {
-      "size": "1/2\"",
-      "material": "A193 B8 Cl-1 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 205,
-      "preloadMinN": 13139,
-      "preloadMaxN": 13139,
-      "torqueMinNm": 25,
-      "torqueMaxNm": 25
-    },
-    {
-      "size": "1/2\"",
-      "material": "A320 B8 Cl-1 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 205,
-      "preloadMinN": 13139,
-      "preloadMaxN": 13139,
-      "torqueMinNm": 25,
-      "torqueMaxNm": 25
-    },
-    {
-      "size": "1/2\"",
-      "material": "A193 B8 Cl-2 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 690,
-      "preloadMinN": 44224,
-      "preloadMaxN": 44224,
-      "torqueMinNm": 85,
-      "torqueMaxNm": 85
-    },
-    {
-      "size": "1/2\"",
-      "material": "A320 B8 Cl-2 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 690,
-      "preloadMinN": 44224,
-      "preloadMaxN": 44224,
-      "torqueMinNm": 85,
-      "torqueMaxNm": 85
-    },
-    {
-      "size": "1/2\"",
-      "material": "A193 B8M Cl-2 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 655,
-      "preloadMinN": 41981,
-      "preloadMaxN": 41981,
-      "torqueMinNm": 81,
-      "torqueMaxNm": 81
-    },
-    {
-      "size": "1/2\"",
-      "material": "A320 B8M Cl-2 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 655,
-      "preloadMinN": 41981,
-      "preloadMaxN": 41981,
-      "torqueMinNm": 81,
-      "torqueMaxNm": 81
-    },
-    {
-      "size": "9/16\"",
-      "material": "A320 L7 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 725,
-      "preloadMinN": 59572,
-      "preloadMaxN": 59572,
-      "torqueMinNm": 115,
-      "torqueMaxNm": 128
-    },
-    {
-      "size": "9/16\"",
-      "material": "A320 L7M + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 550,
-      "preloadMinN": 45192,
-      "preloadMaxN": 45192,
-      "torqueMinNm": 97,
-      "torqueMaxNm": 97
-    },
-    {
-      "size": "9/16\"",
-      "material": "A193 B7 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 720,
-      "preloadMinN": 59161,
-      "preloadMaxN": 59161,
-      "torqueMinNm": 115,
-      "torqueMaxNm": 127
-    },
-    {
-      "size": "9/16\"",
-      "material": "A193 B7M + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 550,
-      "preloadMinN": 45192,
-      "preloadMaxN": 45192,
-      "torqueMinNm": 97,
-      "torqueMaxNm": 97
-    },
-    {
-      "size": "9/16\"",
-      "material": "A479 XM-19_hot rolled (NITRONIC 50HS) + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 725,
-      "preloadMinN": 59572,
-      "preloadMaxN": 59572,
-      "torqueMinNm": 115,
-      "torqueMaxNm": 128
-    },
-    {
-      "size": "9/16\"",
-      "material": "A479 XM-19_annealled (NITRONIC 50) + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 380,
-      "preloadMinN": 31224,
-      "preloadMaxN": 31224,
-      "torqueMinNm": 67,
-      "torqueMaxNm": 67
-    },
-    {
-      "size": "9/16\"",
-      "material": "A193 B16 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 725,
-      "preloadMinN": 59572,
-      "preloadMaxN": 59572,
-      "torqueMinNm": 115,
-      "torqueMaxNm": 128
-    },
-    {
-      "size": "9/16\"",
-      "material": "A193 B8 Cl-1 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 205,
-      "preloadMinN": 16844,
-      "preloadMaxN": 16844,
-      "torqueMinNm": 36,
-      "torqueMaxNm": 36
-    },
-    {
-      "size": "9/16\"",
-      "material": "A320 B8 Cl-1 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 205,
-      "preloadMinN": 16844,
-      "preloadMaxN": 16844,
-      "torqueMinNm": 36,
-      "torqueMaxNm": 36
-    },
-    {
-      "size": "9/16\"",
-      "material": "A193 B8 Cl-2 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 690,
-      "preloadMinN": 56696,
-      "preloadMaxN": 56696,
-      "torqueMinNm": 121,
-      "torqueMaxNm": 121
-    },
-    {
-      "size": "9/16\"",
-      "material": "A320 B8 Cl-2 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 690,
-      "preloadMinN": 56696,
-      "preloadMaxN": 56696,
-      "torqueMinNm": 121,
-      "torqueMaxNm": 121
-    },
-    {
-      "size": "9/16\"",
-      "material": "A193 B8M Cl-2 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 655,
-      "preloadMinN": 53820,
-      "preloadMaxN": 53820,
-      "torqueMinNm": 115,
-      "torqueMaxNm": 115
-    },
-    {
-      "size": "9/16\"",
-      "material": "A320 B8M Cl-2 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 655,
-      "preloadMinN": 53820,
-      "preloadMaxN": 53820,
-      "torqueMinNm": 115,
-      "torqueMaxNm": 115
-    },
-    {
-      "size": "5/8\"",
-      "material": "A320 L7 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 725,
-      "preloadMinN": 73997,
-      "preloadMaxN": 73997,
-      "torqueMinNm": 157,
-      "torqueMaxNm": 174
-    },
-    {
-      "size": "5/8\"",
-      "material": "A320 L7M + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 550,
-      "preloadMinN": 56136,
-      "preloadMaxN": 56136,
-      "torqueMinNm": 132,
-      "torqueMaxNm": 132
-    },
-    {
-      "size": "5/8\"",
-      "material": "A193 B7 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 720,
-      "preloadMinN": 73487,
-      "preloadMaxN": 73487,
-      "torqueMinNm": 157,
-      "torqueMaxNm": 173
-    },
-    {
-      "size": "5/8\"",
-      "material": "A193 B7M + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 550,
-      "preloadMinN": 56136,
-      "preloadMaxN": 56136,
-      "torqueMinNm": 132,
-      "torqueMaxNm": 132
-    },
-    {
-      "size": "5/8\"",
-      "material": "A479 XM-19_hot rolled (NITRONIC 50HS) + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 725,
-      "preloadMinN": 73997,
-      "preloadMaxN": 73997,
-      "torqueMinNm": 157,
-      "torqueMaxNm": 174
-    },
-    {
-      "size": "5/8\"",
-      "material": "A479 XM-19_annealled (NITRONIC 50) + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 380,
-      "preloadMinN": 38785,
-      "preloadMaxN": 38785,
-      "torqueMinNm": 91,
-      "torqueMaxNm": 91
-    },
-    {
-      "size": "5/8\"",
-      "material": "A193 B16 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 725,
-      "preloadMinN": 73997,
-      "preloadMaxN": 73997,
-      "torqueMinNm": 157,
-      "torqueMaxNm": 174
-    },
-    {
-      "size": "5/8\"",
-      "material": "A193 B8 Cl-1 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 205,
-      "preloadMinN": 20923,
-      "preloadMaxN": 20923,
-      "torqueMinNm": 49,
-      "torqueMaxNm": 49
-    },
-    {
-      "size": "5/8\"",
-      "material": "A320 B8 Cl-1 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 205,
-      "preloadMinN": 20923,
-      "preloadMaxN": 20923,
-      "torqueMinNm": 49,
-      "torqueMaxNm": 49
-    },
-    {
-      "size": "5/8\"",
-      "material": "A193 B8 Cl-2 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 690,
-      "preloadMinN": 70425,
-      "preloadMaxN": 70425,
-      "torqueMinNm": 166,
-      "torqueMaxNm": 166
-    },
-    {
-      "size": "5/8\"",
-      "material": "A320 B8 Cl-2 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 690,
-      "preloadMinN": 70425,
-      "preloadMaxN": 70425,
-      "torqueMinNm": 166,
-      "torqueMaxNm": 166
-    },
-    {
-      "size": "5/8\"",
-      "material": "A193 B8M Cl-2 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 655,
-      "preloadMinN": 66853,
-      "preloadMaxN": 66853,
-      "torqueMinNm": 157,
-      "torqueMaxNm": 157
-    },
-    {
-      "size": "5/8\"",
-      "material": "A320 B8M Cl-2 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 655,
-      "preloadMinN": 66853,
-      "preloadMaxN": 66853,
-      "torqueMinNm": 157,
-      "torqueMaxNm": 157
-    },
-    {
-      "size": "3/4\"",
-      "material": "A320 L7 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 725,
-      "preloadMinN": 109508,
-      "preloadMaxN": 109508,
-      "torqueMinNm": 274,
-      "torqueMaxNm": 303
-    },
-    {
-      "size": "3/4\"",
-      "material": "A320 L7M + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 550,
-      "preloadMinN": 83075,
-      "preloadMaxN": 83075,
-      "torqueMinNm": 230,
-      "torqueMaxNm": 230
-    },
-    {
-      "size": "3/4\"",
-      "material": "A193 B7 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 720,
-      "preloadMinN": 108753,
-      "preloadMaxN": 108753,
-      "torqueMinNm": 274,
-      "torqueMaxNm": 301
-    },
-    {
-      "size": "3/4\"",
-      "material": "A193 B7M + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 550,
-      "preloadMinN": 83075,
-      "preloadMaxN": 83075,
-      "torqueMinNm": 230,
-      "torqueMaxNm": 230
-    },
-    {
-      "size": "3/4\"",
-      "material": "A479 XM-19_hot rolled (NITRONIC 50HS) + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 725,
-      "preloadMinN": 109508,
-      "preloadMaxN": 109508,
-      "torqueMinNm": 274,
-      "torqueMaxNm": 303
-    },
-    {
-      "size": "3/4\"",
-      "material": "A479 XM-19_annealled (NITRONIC 50) + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 380,
-      "preloadMinN": 57398,
-      "preloadMaxN": 57398,
-      "torqueMinNm": 159,
-      "torqueMaxNm": 159
-    },
-    {
-      "size": "3/4\"",
-      "material": "A193 B16 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 725,
-      "preloadMinN": 109508,
-      "preloadMaxN": 109508,
-      "torqueMinNm": 274,
-      "torqueMaxNm": 303
-    },
-    {
-      "size": "3/4\"",
-      "material": "A193 B8 Cl-1 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 205,
-      "preloadMinN": 30964,
-      "preloadMaxN": 30964,
-      "torqueMinNm": 86,
-      "torqueMaxNm": 86
-    },
-    {
-      "size": "3/4\"",
-      "material": "A320 B8 Cl-1 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 205,
-      "preloadMinN": 30964,
-      "preloadMaxN": 30964,
-      "torqueMinNm": 86,
-      "torqueMaxNm": 86
-    },
-    {
-      "size": "3/4\"",
-      "material": "A193 B8 Cl-2 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 690,
-      "preloadMinN": 104222,
-      "preloadMaxN": 104222,
-      "torqueMinNm": 288,
-      "torqueMaxNm": 288
-    },
-    {
-      "size": "3/4\"",
-      "material": "A320 B8 Cl-2 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 690,
-      "preloadMinN": 104222,
-      "preloadMaxN": 104222,
-      "torqueMinNm": 288,
-      "torqueMaxNm": 288
-    },
-    {
-      "size": "3/4\"",
-      "material": "A193 B8M Cl-2 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 655,
-      "preloadMinN": 98935,
-      "preloadMaxN": 98935,
-      "torqueMinNm": 274,
-      "torqueMaxNm": 274
-    },
-    {
-      "size": "3/4\"",
-      "material": "A320 B8M Cl-2 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 655,
-      "preloadMinN": 98935,
-      "preloadMaxN": 98935,
-      "torqueMinNm": 274,
-      "torqueMaxNm": 274
-    },
-    {
-      "size": "7/8\"",
-      "material": "A320 L7 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 725,
-      "preloadMinN": 151183,
-      "preloadMaxN": 151183,
-      "torqueMinNm": 365,
-      "torqueMaxNm": 481
-    },
-    {
-      "size": "7/8\"",
-      "material": "A320 L7M + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 550,
-      "preloadMinN": 114691,
-      "preloadMaxN": 114691,
-      "torqueMinNm": 365,
-      "torqueMaxNm": 365
-    },
-    {
-      "size": "7/8\"",
-      "material": "A193 B7 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 720,
-      "preloadMinN": 150141,
-      "preloadMaxN": 150141,
-      "torqueMinNm": 365,
-      "torqueMaxNm": 478
-    },
-    {
-      "size": "7/8\"",
-      "material": "A193 B7M + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 550,
-      "preloadMinN": 114691,
-      "preloadMaxN": 114691,
-      "torqueMinNm": 365,
-      "torqueMaxNm": 365
-    },
-    {
-      "size": "7/8\"",
-      "material": "A479 XM-19_hot rolled (NITRONIC 50HS) + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 725,
-      "preloadMinN": 151183,
-      "preloadMaxN": 151183,
-      "torqueMinNm": 365,
-      "torqueMaxNm": 481
-    },
-    {
-      "size": "7/8\"",
-      "material": "A479 XM-19_annealled (NITRONIC 50) + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 380,
-      "preloadMinN": 79241,
-      "preloadMaxN": 79241,
-      "torqueMinNm": 252,
-      "torqueMaxNm": 252
-    },
-    {
-      "size": "7/8\"",
-      "material": "A193 B16 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 725,
-      "preloadMinN": 151183,
-      "preloadMaxN": 151183,
-      "torqueMinNm": 365,
-      "torqueMaxNm": 481
-    },
-    {
-      "size": "7/8\"",
-      "material": "A193 B8 Cl-1 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 205,
-      "preloadMinN": 42748,
-      "preloadMaxN": 42748,
-      "torqueMinNm": 136,
-      "torqueMaxNm": 136
-    },
-    {
-      "size": "7/8\"",
-      "material": "A320 B8 Cl-1 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 205,
-      "preloadMinN": 42748,
-      "preloadMaxN": 42748,
-      "torqueMinNm": 136,
-      "torqueMaxNm": 136
-    },
-    {
-      "size": "7/8\"",
-      "material": "A193 B8 Cl-2 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 550,
-      "preloadMinN": 114691,
-      "preloadMaxN": 114691,
-      "torqueMinNm": 365,
-      "torqueMaxNm": 365
-    },
-    {
-      "size": "7/8\"",
-      "material": "A320 B8 Cl-2 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 550,
-      "preloadMinN": 114691,
-      "preloadMaxN": 114691,
-      "torqueMinNm": 365,
-      "torqueMaxNm": 365
-    },
-    {
-      "size": "7/8\"",
-      "material": "A193 B8M Cl-2 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 550,
-      "preloadMinN": 114691,
-      "preloadMaxN": 114691,
-      "torqueMinNm": 365,
-      "torqueMaxNm": 365
-    },
-    {
-      "size": "7/8\"",
-      "material": "A320 B8M Cl-2 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 550,
-      "preloadMinN": 114691,
-      "preloadMaxN": 114691,
-      "torqueMinNm": 365,
-      "torqueMaxNm": 365
-    },
-    {
-      "size": "1\"",
-      "material": "A320 L7 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 725,
-      "preloadMinN": 198332,
-      "preloadMaxN": 198332,
-      "torqueMinNm": 543,
-      "torqueMaxNm": 716
-    },
-    {
-      "size": "1\"",
-      "material": "A320 L7M + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 550,
-      "preloadMinN": 150459,
-      "preloadMaxN": 150459,
-      "torqueMinNm": 543,
-      "torqueMaxNm": 543
-    },
-    {
-      "size": "1\"",
-      "material": "A193 B7 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 720,
-      "preloadMinN": 196964,
-      "preloadMaxN": 196964,
-      "torqueMinNm": 543,
-      "torqueMaxNm": 711
-    },
-    {
-      "size": "1\"",
-      "material": "A193 B7M + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 550,
-      "preloadMinN": 150459,
-      "preloadMaxN": 150459,
-      "torqueMinNm": 543,
-      "torqueMaxNm": 543
-    },
-    {
-      "size": "1\"",
-      "material": "A479 XM-19_hot rolled (NITRONIC 50HS) + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 725,
-      "preloadMinN": 198332,
-      "preloadMaxN": 198332,
-      "torqueMinNm": 543,
-      "torqueMaxNm": 716
-    },
-    {
-      "size": "1\"",
-      "material": "A479 XM-19_annealled (NITRONIC 50) + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 380,
-      "preloadMinN": 103953,
-      "preloadMaxN": 103953,
-      "torqueMinNm": 375,
-      "torqueMaxNm": 375
-    },
-    {
-      "size": "1\"",
-      "material": "A193 B16 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 725,
-      "preloadMinN": 198332,
-      "preloadMaxN": 198332,
-      "torqueMinNm": 543,
-      "torqueMaxNm": 716
-    },
-    {
-      "size": "1\"",
-      "material": "A193 B8 Cl-1 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 205,
-      "preloadMinN": 56080,
-      "preloadMaxN": 56080,
-      "torqueMinNm": 202,
-      "torqueMaxNm": 202
-    },
-    {
-      "size": "1\"",
-      "material": "A320 B8 Cl-1 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 205,
-      "preloadMinN": 56080,
-      "preloadMaxN": 56080,
-      "torqueMinNm": 202,
-      "torqueMaxNm": 202
-    },
-    {
-      "size": "1\"",
-      "material": "A193 B8 Cl-2 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 550,
-      "preloadMinN": 150459,
-      "preloadMaxN": 150459,
-      "torqueMinNm": 543,
-      "torqueMaxNm": 543
-    },
-    {
-      "size": "1\"",
-      "material": "A320 B8 Cl-2 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 550,
-      "preloadMinN": 150459,
-      "preloadMaxN": 150459,
-      "torqueMinNm": 543,
-      "torqueMaxNm": 543
-    },
-    {
-      "size": "1\"",
-      "material": "A193 B8M Cl-2 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 550,
-      "preloadMinN": 150459,
-      "preloadMaxN": 150459,
-      "torqueMinNm": 543,
-      "torqueMaxNm": 543
-    },
-    {
-      "size": "1\"",
-      "material": "A320 B8M Cl-2 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 550,
-      "preloadMinN": 150459,
-      "preloadMaxN": 150459,
-      "torqueMinNm": 543,
-      "torqueMaxNm": 543
-    },
-    {
-      "size": "1 1/8\"",
-      "material": "A320 L7 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 725,
-      "preloadMinN": 258809,
-      "preloadMaxN": 258809,
-      "torqueMinNm": 641,
-      "torqueMaxNm": 1033
-    },
-    {
-      "size": "1 1/8\"",
-      "material": "A320 L7M + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 550,
-      "preloadMinN": 196338,
-      "preloadMaxN": 196338,
-      "torqueMinNm": 641,
-      "torqueMaxNm": 783
-    },
-    {
-      "size": "1 1/8\"",
-      "material": "A193 B7 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 720,
-      "preloadMinN": 257024,
-      "preloadMaxN": 257024,
-      "torqueMinNm": 641,
-      "torqueMaxNm": 1025
-    },
-    {
-      "size": "1 1/8\"",
-      "material": "A193 B7M + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 550,
-      "preloadMinN": 196338,
-      "preloadMaxN": 196338,
-      "torqueMinNm": 641,
-      "torqueMaxNm": 783
-    },
-    {
-      "size": "1 1/8\"",
-      "material": "A479 XM-19_hot rolled (NITRONIC 50HS) + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 725,
-      "preloadMinN": 258809,
-      "preloadMaxN": 258809,
-      "torqueMinNm": 641,
-      "torqueMaxNm": 1033
-    },
-    {
-      "size": "1 1/8\"",
-      "material": "A479 XM-19_annealled (NITRONIC 50) + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 380,
-      "preloadMinN": 135652,
-      "preloadMaxN": 135652,
-      "torqueMinNm": 541,
-      "torqueMaxNm": 541
-    },
-    {
-      "size": "1 1/8\"",
-      "material": "A193 B16 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 725,
-      "preloadMinN": 258809,
-      "preloadMaxN": 258809,
-      "torqueMinNm": 641,
-      "torqueMaxNm": 1033
-    },
-    {
-      "size": "1 1/8\"",
-      "material": "A193 B8 Cl-1 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 205,
-      "preloadMinN": 73180,
-      "preloadMaxN": 73180,
-      "torqueMinNm": 292,
-      "torqueMaxNm": 292
-    },
-    {
-      "size": "1 1/8\"",
-      "material": "A320 B8 Cl-1 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 205,
-      "preloadMinN": 73180,
-      "preloadMaxN": 73180,
-      "torqueMinNm": 292,
-      "torqueMaxNm": 292
-    },
-    {
-      "size": "1 1/8\"",
-      "material": "A193 B8 Cl-2 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 450,
-      "preloadMinN": 160640,
-      "preloadMaxN": 160640,
-      "torqueMinNm": 641,
-      "torqueMaxNm": 641
-    },
-    {
-      "size": "1 1/8\"",
-      "material": "A320 B8 Cl-2 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 450,
-      "preloadMinN": 160640,
-      "preloadMaxN": 160640,
-      "torqueMinNm": 641,
-      "torqueMaxNm": 641
-    },
-    {
-      "size": "1 1/8\"",
-      "material": "A193 B8M Cl-2 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 450,
-      "preloadMinN": 160640,
-      "preloadMaxN": 160640,
-      "torqueMinNm": 641,
-      "torqueMaxNm": 641
-    },
-    {
-      "size": "1 1/8\"",
-      "material": "A320 B8M Cl-2 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 450,
-      "preloadMinN": 160640,
-      "preloadMaxN": 160640,
-      "torqueMinNm": 641,
-      "torqueMaxNm": 641
-    },
-    {
-      "size": "1 1/4\"",
-      "material": "A320 L7 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 725,
-      "preloadMinN": 327322,
-      "preloadMaxN": 327322,
-      "torqueMinNm": 888,
-      "torqueMaxNm": 1431
-    },
-    {
-      "size": "1 1/4\"",
-      "material": "A320 L7M + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 550,
-      "preloadMinN": 248313,
-      "preloadMaxN": 248313,
-      "torqueMinNm": 888,
-      "torqueMaxNm": 1085
-    },
-    {
-      "size": "1 1/4\"",
-      "material": "A193 B7 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 720,
-      "preloadMinN": 325065,
-      "preloadMaxN": 325065,
-      "torqueMinNm": 888,
-      "torqueMaxNm": 1421
-    },
-    {
-      "size": "1 1/4\"",
-      "material": "A193 B7M + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 550,
-      "preloadMinN": 248313,
-      "preloadMaxN": 248313,
-      "torqueMinNm": 888,
-      "torqueMaxNm": 1085
-    },
-    {
-      "size": "1 1/4\"",
-      "material": "A479 XM-19_hot rolled (NITRONIC 50HS) + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 725,
-      "preloadMinN": 327322,
-      "preloadMaxN": 327322,
-      "torqueMinNm": 888,
-      "torqueMaxNm": 1431
-    },
-    {
-      "size": "1 1/4\"",
-      "material": "A479 XM-19_annealled (NITRONIC 50) + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 380,
-      "preloadMinN": 171562,
-      "preloadMaxN": 171562,
-      "torqueMinNm": 750,
-      "torqueMaxNm": 750
-    },
-    {
-      "size": "1 1/4\"",
-      "material": "A193 B16 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 725,
-      "preloadMinN": 327322,
-      "preloadMaxN": 327322,
-      "torqueMinNm": 888,
-      "torqueMaxNm": 1431
-    },
-    {
-      "size": "1 1/4\"",
-      "material": "A193 B8 Cl-1 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 205,
-      "preloadMinN": 92553,
-      "preloadMaxN": 92553,
-      "torqueMinNm": 405,
-      "torqueMaxNm": 405
-    },
-    {
-      "size": "1 1/4\"",
-      "material": "A320 B8 Cl-1 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 205,
-      "preloadMinN": 92553,
-      "preloadMaxN": 92553,
-      "torqueMinNm": 405,
-      "torqueMaxNm": 405
-    },
-    {
-      "size": "1 1/4\"",
-      "material": "A193 B8 Cl-2 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 450,
-      "preloadMinN": 203165,
-      "preloadMaxN": 203165,
-      "torqueMinNm": 888,
-      "torqueMaxNm": 888
-    },
-    {
-      "size": "1 1/4\"",
-      "material": "A320 B8 Cl-2 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 450,
-      "preloadMinN": 203165,
-      "preloadMaxN": 203165,
-      "torqueMinNm": 888,
-      "torqueMaxNm": 888
-    },
-    {
-      "size": "1 1/4\"",
-      "material": "A193 B8M Cl-2 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 450,
-      "preloadMinN": 203165,
-      "preloadMaxN": 203165,
-      "torqueMinNm": 888,
-      "torqueMaxNm": 888
-    },
-    {
-      "size": "1 1/4\"",
-      "material": "A320 B8M Cl-2 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 450,
-      "preloadMinN": 203165,
-      "preloadMaxN": 203165,
-      "torqueMinNm": 888,
-      "torqueMaxNm": 888
-    },
-    {
-      "size": "1 3/8\"",
-      "material": "A320 L7 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 725,
-      "preloadMinN": 403871,
-      "preloadMaxN": 403871,
-      "torqueMinNm": 913,
-      "torqueMaxNm": 1920
-    },
-    {
-      "size": "1 3/8\"",
-      "material": "A320 L7M + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 550,
-      "preloadMinN": 306385,
-      "preloadMaxN": 306385,
-      "torqueMinNm": 913,
-      "torqueMaxNm": 1456
-    },
-    {
-      "size": "1 3/8\"",
-      "material": "A193 B7 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 720,
-      "preloadMinN": 401086,
-      "preloadMaxN": 401086,
-      "torqueMinNm": 913,
-      "torqueMaxNm": 1906
-    },
-    {
-      "size": "1 3/8\"",
-      "material": "A193 B7M + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 550,
-      "preloadMinN": 306385,
-      "preloadMaxN": 306385,
-      "torqueMinNm": 913,
-      "torqueMaxNm": 1456
-    },
-    {
-      "size": "1 3/8\"",
-      "material": "A479 XM-19_hot rolled (NITRONIC 50HS) + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 725,
-      "preloadMinN": 403871,
-      "preloadMaxN": 403871,
-      "torqueMinNm": 913,
-      "torqueMaxNm": 1920
-    },
-    {
-      "size": "1 3/8\"",
-      "material": "A479 XM-19_annealled (NITRONIC 50) + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 380,
-      "preloadMinN": 211684,
-      "preloadMaxN": 211684,
-      "torqueMinNm": 913,
-      "torqueMaxNm": 1006
-    },
-    {
-      "size": "1 3/8\"",
-      "material": "A193 B16 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 725,
-      "preloadMinN": 403871,
-      "preloadMaxN": 403871,
-      "torqueMinNm": 913,
-      "torqueMaxNm": 1920
-    },
-    {
-      "size": "1 3/8\"",
-      "material": "A193 B8 Cl-1 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 205,
-      "preloadMinN": 114198,
-      "preloadMaxN": 114198,
-      "torqueMinNm": 543,
-      "torqueMaxNm": 543
-    },
-    {
-      "size": "1 3/8\"",
-      "material": "A320 B8 Cl-1 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 205,
-      "preloadMinN": 114198,
-      "preloadMaxN": 114198,
-      "torqueMinNm": 543,
-      "torqueMaxNm": 543
-    },
-    {
-      "size": "1 3/8\"",
-      "material": "A193 B8 Cl-2 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 345,
-      "preloadMinN": 192187,
-      "preloadMaxN": 192187,
-      "torqueMinNm": 913,
-      "torqueMaxNm": 913
-    },
-    {
-      "size": "1 3/8\"",
-      "material": "A320 B8 Cl-2 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 345,
-      "preloadMinN": 192187,
-      "preloadMaxN": 192187,
-      "torqueMinNm": 913,
-      "torqueMaxNm": 913
-    },
-    {
-      "size": "1 3/8\"",
-      "material": "A193 B8M Cl-2 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 345,
-      "preloadMinN": 192187,
-      "preloadMaxN": 192187,
-      "torqueMinNm": 913,
-      "torqueMaxNm": 913
-    },
-    {
-      "size": "1 3/8\"",
-      "material": "A320 B8M Cl-2 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 345,
-      "preloadMinN": 192187,
-      "preloadMaxN": 192187,
-      "torqueMinNm": 913,
-      "torqueMaxNm": 913
-    },
-    {
-      "size": "1 1/2\"",
-      "material": "A320 L7 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 725,
-      "preloadMinN": 488456,
-      "preloadMaxN": 488456,
-      "torqueMinNm": 1193,
-      "torqueMaxNm": 2508
-    },
-    {
-      "size": "1 1/2\"",
-      "material": "A320 L7M + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 550,
-      "preloadMinN": 370553,
-      "preloadMaxN": 370553,
-      "torqueMinNm": 1193,
-      "torqueMaxNm": 1903
-    },
-    {
-      "size": "1 1/2\"",
-      "material": "A193 B7 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 720,
-      "preloadMinN": 485088,
-      "preloadMaxN": 485088,
-      "torqueMinNm": 1193,
-      "torqueMaxNm": 2491
-    },
-    {
-      "size": "1 1/2\"",
-      "material": "A193 B7M + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 550,
-      "preloadMinN": 370553,
-      "preloadMaxN": 370553,
-      "torqueMinNm": 1193,
-      "torqueMaxNm": 1903
-    },
-    {
-      "size": "1 1/2\"",
-      "material": "A479 XM-19_hot rolled (NITRONIC 50HS) + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 725,
-      "preloadMinN": 488456,
-      "preloadMaxN": 488456,
-      "torqueMinNm": 1193,
-      "torqueMaxNm": 2508
-    },
-    {
-      "size": "1 1/2\"",
-      "material": "A479 XM-19_annealled (NITRONIC 50) + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 380,
-      "preloadMinN": 256018,
-      "preloadMaxN": 256018,
-      "torqueMinNm": 1193,
-      "torqueMaxNm": 1314
-    },
-    {
-      "size": "1 1/2\"",
-      "material": "A193 B16 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 725,
-      "preloadMinN": 488456,
-      "preloadMaxN": 488456,
-      "torqueMinNm": 1193,
-      "torqueMaxNm": 2508
-    },
-    {
-      "size": "1 1/2\"",
-      "material": "A193 B8 Cl-1 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 205,
-      "preloadMinN": 138115,
-      "preloadMaxN": 138115,
-      "torqueMinNm": 709,
-      "torqueMaxNm": 709
-    },
-    {
-      "size": "1 1/2\"",
-      "material": "A320 B8 Cl-1 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 205,
-      "preloadMinN": 138115,
-      "preloadMaxN": 138115,
-      "torqueMinNm": 709,
-      "torqueMaxNm": 709
-    },
-    {
-      "size": "1 1/2\"",
-      "material": "A193 B8 Cl-2 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 345,
-      "preloadMinN": 232438,
-      "preloadMaxN": 232438,
-      "torqueMinNm": 1193,
-      "torqueMaxNm": 1193
-    },
-    {
-      "size": "1 1/2\"",
-      "material": "A320 B8 Cl-2 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 345,
-      "preloadMinN": 232438,
-      "preloadMaxN": 232438,
-      "torqueMinNm": 1193,
-      "torqueMaxNm": 1193
-    },
-    {
-      "size": "1 1/2\"",
-      "material": "A193 B8M Cl-2 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 345,
-      "preloadMinN": 232438,
-      "preloadMaxN": 232438,
-      "torqueMinNm": 1193,
-      "torqueMaxNm": 1193
-    },
-    {
-      "size": "1 1/2\"",
-      "material": "A320 B8M Cl-2 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 345,
-      "preloadMinN": 232438,
-      "preloadMaxN": 232438,
-      "torqueMinNm": 1193,
-      "torqueMaxNm": 1193
-    },
-    {
-      "size": "1 5/8\"",
-      "material": "A320 L7 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 725,
-      "preloadMinN": 581078,
-      "preloadMaxN": 581078,
-      "torqueMinNm": 1525,
-      "torqueMaxNm": 3205
-    },
-    {
-      "size": "1 5/8\"",
-      "material": "A320 L7M + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 550,
-      "preloadMinN": 440817,
-      "preloadMaxN": 440817,
-      "torqueMinNm": 1525,
-      "torqueMaxNm": 2432
-    },
-    {
-      "size": "1 5/8\"",
-      "material": "A193 B7 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 720,
-      "preloadMinN": 577070,
-      "preloadMaxN": 577070,
-      "torqueMinNm": 1525,
-      "torqueMaxNm": 3183
-    },
-    {
-      "size": "1 5/8\"",
-      "material": "A193 B7M + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 550,
-      "preloadMinN": 440817,
-      "preloadMaxN": 440817,
-      "torqueMinNm": 1525,
-      "torqueMaxNm": 2432
-    },
-    {
-      "size": "1 5/8\"",
-      "material": "A479 XM-19_hot rolled (NITRONIC 50HS) + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 725,
-      "preloadMinN": 581078,
-      "preloadMaxN": 581078,
-      "torqueMinNm": 1525,
-      "torqueMaxNm": 3205
-    },
-    {
-      "size": "1 5/8\"",
-      "material": "A479 XM-19_annealled (NITRONIC 50) + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 380,
-      "preloadMinN": 304565,
-      "preloadMaxN": 304565,
-      "torqueMinNm": 1525,
-      "torqueMaxNm": 1680
-    },
-    {
-      "size": "1 5/8\"",
-      "material": "A193 B16 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 725,
-      "preloadMinN": 581078,
-      "preloadMaxN": 581078,
-      "torqueMinNm": 1525,
-      "torqueMaxNm": 3205
-    },
-    {
-      "size": "1 5/8\"",
-      "material": "A193 B8 Cl-1 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 205,
-      "preloadMinN": 164305,
-      "preloadMaxN": 164305,
-      "torqueMinNm": 906,
-      "torqueMaxNm": 906
-    },
-    {
-      "size": "1 5/8\"",
-      "material": "A320 B8 Cl-1 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 205,
-      "preloadMinN": 164305,
-      "preloadMaxN": 164305,
-      "torqueMinNm": 906,
-      "torqueMaxNm": 906
-    },
-    {
-      "size": "1 5/8\"",
-      "material": "A193 B8 Cl-2 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 345,
-      "preloadMinN": 276513,
-      "preloadMaxN": 276513,
-      "torqueMinNm": 1525,
-      "torqueMaxNm": 1525
-    },
-    {
-      "size": "1 5/8\"",
-      "material": "A320 B8 Cl-2 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 345,
-      "preloadMinN": 276513,
-      "preloadMaxN": 276513,
-      "torqueMinNm": 1525,
-      "torqueMaxNm": 1525
-    },
-    {
-      "size": "1 5/8\"",
-      "material": "A193 B8M Cl-2 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 345,
-      "preloadMinN": 276513,
-      "preloadMaxN": 276513,
-      "torqueMinNm": 1525,
-      "torqueMaxNm": 1525
-    },
-    {
-      "size": "1 5/8\"",
-      "material": "A320 B8M Cl-2 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 345,
-      "preloadMinN": 276513,
-      "preloadMaxN": 276513,
-      "torqueMinNm": 1525,
-      "torqueMaxNm": 1525
-    },
-    {
-      "size": "1 3/4\"",
-      "material": "A320 L7 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 725,
-      "preloadMinN": 681735,
-      "preloadMaxN": 681735,
-      "torqueMinNm": 1913,
-      "torqueMaxNm": 4021
-    },
-    {
-      "size": "1 3/4\"",
-      "material": "A320 L7M + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 550,
-      "preloadMinN": 517178,
-      "preloadMaxN": 517178,
-      "torqueMinNm": 1913,
-      "torqueMaxNm": 3050
-    },
-    {
-      "size": "1 3/4\"",
-      "material": "A193 B7 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 720,
-      "preloadMinN": 677033,
-      "preloadMaxN": 677033,
-      "torqueMinNm": 1913,
-      "torqueMaxNm": 3993
-    },
-    {
-      "size": "1 3/4\"",
-      "material": "A193 B7M + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 550,
-      "preloadMinN": 517178,
-      "preloadMaxN": 517178,
-      "torqueMinNm": 1913,
-      "torqueMaxNm": 3050
-    },
-    {
-      "size": "1 3/4\"",
-      "material": "A479 XM-19_hot rolled (NITRONIC 50HS) + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 725,
-      "preloadMinN": 681735,
-      "preloadMaxN": 681735,
-      "torqueMinNm": 1913,
-      "torqueMaxNm": 4021
-    },
-    {
-      "size": "1 3/4\"",
-      "material": "A479 XM-19_annealled (NITRONIC 50) + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 380,
-      "preloadMinN": 357323,
-      "preloadMaxN": 357323,
-      "torqueMinNm": 1913,
-      "torqueMaxNm": 2107
-    },
-    {
-      "size": "1 3/4\"",
-      "material": "A193 B16 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 725,
-      "preloadMinN": 681735,
-      "preloadMaxN": 681735,
-      "torqueMinNm": 1913,
-      "torqueMaxNm": 4021
-    },
-    {
-      "size": "1 3/4\"",
-      "material": "A193 B8 Cl-1 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 205,
-      "preloadMinN": 192766,
-      "preloadMaxN": 192766,
-      "torqueMinNm": 1137,
-      "torqueMaxNm": 1137
-    },
-    {
-      "size": "1 3/4\"",
-      "material": "A320 B8 Cl-1 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 205,
-      "preloadMinN": 192766,
-      "preloadMaxN": 192766,
-      "torqueMinNm": 1137,
-      "torqueMaxNm": 1137
-    },
-    {
-      "size": "1 3/4\"",
-      "material": "A193 B8 Cl-2 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 345,
-      "preloadMinN": 324412,
-      "preloadMaxN": 324412,
-      "torqueMinNm": 1913,
-      "torqueMaxNm": 1913
-    },
-    {
-      "size": "1 3/4\"",
-      "material": "A320 B8 Cl-2 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 345,
-      "preloadMinN": 324412,
-      "preloadMaxN": 324412,
-      "torqueMinNm": 1913,
-      "torqueMaxNm": 1913
-    },
-    {
-      "size": "1 3/4\"",
-      "material": "A193 B8M Cl-2 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 345,
-      "preloadMinN": 324412,
-      "preloadMaxN": 324412,
-      "torqueMinNm": 1913,
-      "torqueMaxNm": 1913
-    },
-    {
-      "size": "1 3/4\"",
-      "material": "A320 B8M Cl-2 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 345,
-      "preloadMinN": 324412,
-      "preloadMaxN": 324412,
-      "torqueMinNm": 1913,
-      "torqueMaxNm": 1913
-    },
-    {
-      "size": "1 7/8\"",
-      "material": "A320 L7 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 725,
-      "preloadMinN": 790428,
-      "preloadMaxN": 790428,
-      "torqueMinNm": 2362,
-      "torqueMaxNm": 4963
-    },
-    {
-      "size": "1 7/8\"",
-      "material": "A320 L7M + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 550,
-      "preloadMinN": 599635,
-      "preloadMaxN": 599635,
-      "torqueMinNm": 2362,
-      "torqueMaxNm": 3765
-    },
-    {
-      "size": "1 7/8\"",
-      "material": "A193 B7 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 720,
-      "preloadMinN": 784977,
-      "preloadMaxN": 784977,
-      "torqueMinNm": 2362,
-      "torqueMaxNm": 4929
-    },
-    {
-      "size": "1 7/8\"",
-      "material": "A193 B7M + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 550,
-      "preloadMinN": 599635,
-      "preloadMaxN": 599635,
-      "torqueMinNm": 2362,
-      "torqueMaxNm": 3765
-    },
-    {
-      "size": "1 7/8\"",
-      "material": "A479 XM-19_hot rolled (NITRONIC 50HS) + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 725,
-      "preloadMinN": 790428,
-      "preloadMaxN": 790428,
-      "torqueMinNm": 2362,
-      "torqueMaxNm": 4963
-    },
-    {
-      "size": "1 7/8\"",
-      "material": "A479 XM-19_annealled (NITRONIC 50) + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 380,
-      "preloadMinN": 414293,
-      "preloadMaxN": 414293,
-      "torqueMinNm": 2362,
-      "torqueMaxNm": 2601
-    },
-    {
-      "size": "1 7/8\"",
-      "material": "A193 B16 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 725,
-      "preloadMinN": 790428,
-      "preloadMaxN": 790428,
-      "torqueMinNm": 2362,
-      "torqueMaxNm": 4963
-    },
-    {
-      "size": "1 7/8\"",
-      "material": "A193 B8 Cl-1 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 205,
-      "preloadMinN": 223500,
-      "preloadMaxN": 223500,
-      "torqueMinNm": 1403,
-      "torqueMaxNm": 1403
-    },
-    {
-      "size": "1 7/8\"",
-      "material": "A320 B8 Cl-1 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 205,
-      "preloadMinN": 223500,
-      "preloadMaxN": 223500,
-      "torqueMinNm": 1403,
-      "torqueMaxNm": 1403
-    },
-    {
-      "size": "1 7/8\"",
-      "material": "A193 B8 Cl-2 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 345,
-      "preloadMinN": 376135,
-      "preloadMaxN": 376135,
-      "torqueMinNm": 2362,
-      "torqueMaxNm": 2362
-    },
-    {
-      "size": "1 7/8\"",
-      "material": "A320 B8 Cl-2 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 345,
-      "preloadMinN": 376135,
-      "preloadMaxN": 376135,
-      "torqueMinNm": 2362,
-      "torqueMaxNm": 2362
-    },
-    {
-      "size": "1 7/8\"",
-      "material": "A193 B8M Cl-2 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 345,
-      "preloadMinN": 376135,
-      "preloadMaxN": 376135,
-      "torqueMinNm": 2362,
-      "torqueMaxNm": 2362
-    },
-    {
-      "size": "1 7/8\"",
-      "material": "A320 B8M Cl-2 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 345,
-      "preloadMinN": 376135,
-      "preloadMaxN": 376135,
-      "torqueMinNm": 2362,
-      "torqueMaxNm": 2362
-    },
-    {
-      "size": "2\"",
-      "material": "A320 L7 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 725,
-      "preloadMinN": 907158,
-      "preloadMaxN": 907158,
-      "torqueMinNm": 2875,
-      "torqueMaxNm": 6042
-    },
-    {
-      "size": "2\"",
-      "material": "A320 L7M + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 550,
-      "preloadMinN": 688189,
-      "preloadMaxN": 688189,
-      "torqueMinNm": 2875,
-      "torqueMaxNm": 4584
-    },
-    {
-      "size": "2\"",
-      "material": "A193 B7 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 720,
-      "preloadMinN": 900901,
-      "preloadMaxN": 900901,
-      "torqueMinNm": 2875,
-      "torqueMaxNm": 6001
-    },
-    {
-      "size": "2\"",
-      "material": "A193 B7M + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 550,
-      "preloadMinN": 688189,
-      "preloadMaxN": 688189,
-      "torqueMinNm": 2875,
-      "torqueMaxNm": 4584
-    },
-    {
-      "size": "2\"",
-      "material": "A479 XM-19_hot rolled (NITRONIC 50HS) + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 725,
-      "preloadMinN": 907158,
-      "preloadMaxN": 907158,
-      "torqueMinNm": 2875,
-      "torqueMaxNm": 6042
-    },
-    {
-      "size": "2\"",
-      "material": "A479 XM-19_annealled (NITRONIC 50) + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 380,
-      "preloadMinN": 475476,
-      "preloadMaxN": 475476,
-      "torqueMinNm": 2875,
-      "torqueMaxNm": 3167
-    },
-    {
-      "size": "2\"",
-      "material": "A193 B16 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 725,
-      "preloadMinN": 907158,
-      "preloadMaxN": 907158,
-      "torqueMinNm": 2875,
-      "torqueMaxNm": 6042
-    },
-    {
-      "size": "2\"",
-      "material": "A193 B8 Cl-1 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 205,
-      "preloadMinN": 256507,
-      "preloadMaxN": 256507,
-      "torqueMinNm": 1709,
-      "torqueMaxNm": 1709
-    },
-    {
-      "size": "2\"",
-      "material": "A320 B8 Cl-1 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 205,
-      "preloadMinN": 256507,
-      "preloadMaxN": 256507,
-      "torqueMinNm": 1709,
-      "torqueMaxNm": 1709
-    },
-    {
-      "size": "2\"",
-      "material": "A193 B8 Cl-2 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 345,
-      "preloadMinN": 431682,
-      "preloadMaxN": 431682,
-      "torqueMinNm": 2875,
-      "torqueMaxNm": 2875
-    },
-    {
-      "size": "2\"",
-      "material": "A320 B8 Cl-2 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 345,
-      "preloadMinN": 431682,
-      "preloadMaxN": 431682,
-      "torqueMinNm": 2875,
-      "torqueMaxNm": 2875
-    },
-    {
-      "size": "2\"",
-      "material": "A193 B8M Cl-2 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 345,
-      "preloadMinN": 431682,
-      "preloadMaxN": 431682,
-      "torqueMinNm": 2875,
-      "torqueMaxNm": 2875
-    },
-    {
-      "size": "2\"",
-      "material": "A320 B8M Cl-2 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 345,
-      "preloadMinN": 431682,
-      "preloadMaxN": 431682,
-      "torqueMinNm": 2875,
-      "torqueMaxNm": 2875
-    },
-    {
-      "size": "2 1/4\"",
-      "material": "A320 L7 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 725,
-      "preloadMinN": 1164725,
-      "preloadMaxN": 1164725,
-      "torqueMinNm": 4115,
-      "torqueMaxNm": 8647
-    },
-    {
-      "size": "2 1/4\"",
-      "material": "A320 L7M + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 550,
-      "preloadMinN": 883584,
-      "preloadMaxN": 883584,
-      "torqueMinNm": 4115,
-      "torqueMaxNm": 6560
-    },
-    {
-      "size": "2 1/4\"",
-      "material": "A193 B7 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 720,
-      "preloadMinN": 1156692,
-      "preloadMaxN": 1156692,
-      "torqueMinNm": 4115,
-      "torqueMaxNm": 8588
-    },
-    {
-      "size": "2 1/4\"",
-      "material": "A193 B7M + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 550,
-      "preloadMinN": 883584,
-      "preloadMaxN": 883584,
-      "torqueMinNm": 4115,
-      "torqueMaxNm": 6560
-    },
-    {
-      "size": "2 1/4\"",
-      "material": "A479 XM-19_hot rolled (NITRONIC 50HS) + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 515,
-      "preloadMinN": 827356,
-      "preloadMaxN": 827356,
-      "torqueMinNm": 4115,
-      "torqueMaxNm": 6142
-    },
-    {
-      "size": "2 1/4\"",
-      "material": "A479 XM-19_annealled (NITRONIC 50) + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 380,
-      "preloadMinN": 610476,
-      "preloadMaxN": 610476,
-      "torqueMinNm": 4115,
-      "torqueMaxNm": 4532
-    },
-    {
-      "size": "2 1/4\"",
-      "material": "A193 B16 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 725,
-      "preloadMinN": 1164725,
-      "preloadMaxN": 1164725,
-      "torqueMinNm": 4115,
-      "torqueMaxNm": 8647
-    },
-    {
-      "size": "2 1/4\"",
-      "material": "A193 B8 Cl-1 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 205,
-      "preloadMinN": 329336,
-      "preloadMaxN": 329336,
-      "torqueMinNm": 2445,
-      "torqueMaxNm": 2445
-    },
-    {
-      "size": "2 1/4\"",
-      "material": "A320 B8 Cl-1 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 205,
-      "preloadMinN": 329336,
-      "preloadMaxN": 329336,
-      "torqueMinNm": 2445,
-      "torqueMaxNm": 2445
-    },
-    {
-      "size": "2 1/4\"",
-      "material": "A193 B8 Cl-2 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 345,
-      "preloadMinN": 554248,
-      "preloadMaxN": 554248,
-      "torqueMinNm": 4115,
-      "torqueMaxNm": 4115
-    },
-    {
-      "size": "2 1/4\"",
-      "material": "A320 B8 Cl-2 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 345,
-      "preloadMinN": 554248,
-      "preloadMaxN": 554248,
-      "torqueMinNm": 4115,
-      "torqueMaxNm": 4115
-    },
-    {
-      "size": "2 1/4\"",
-      "material": "A193 B8M Cl-2 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 345,
-      "preloadMinN": 554248,
-      "preloadMaxN": 554248,
-      "torqueMinNm": 4115,
-      "torqueMaxNm": 4115
-    },
-    {
-      "size": "2 1/4\"",
-      "material": "A320 B8M Cl-2 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 345,
-      "preloadMinN": 554248,
-      "preloadMaxN": 554248,
-      "torqueMinNm": 4115,
-      "torqueMaxNm": 4115
-    },
-    {
-      "size": "2 1/2\"",
-      "material": "A320 L7 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 725,
-      "preloadMinN": 1454436,
-      "preloadMaxN": 1454436,
-      "torqueMinNm": 5667,
-      "torqueMaxNm": 11908
-    },
-    {
-      "size": "2 1/2\"",
-      "material": "A320 L7M + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 550,
-      "preloadMinN": 1103365,
-      "preloadMaxN": 1103365,
-      "torqueMinNm": 5667,
-      "torqueMaxNm": 9034
-    },
-    {
-      "size": "2 1/2\"",
-      "material": "A193 B7 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 720,
-      "preloadMinN": 1444406,
-      "preloadMaxN": 1444406,
-      "torqueMinNm": 5667,
-      "torqueMaxNm": 11826
-    },
-    {
-      "size": "2 1/2\"",
-      "material": "A193 B7M + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 550,
-      "preloadMinN": 1103365,
-      "preloadMaxN": 1103365,
-      "torqueMinNm": 5667,
-      "torqueMaxNm": 9034
-    },
-    {
-      "size": "2 1/2\"",
-      "material": "A479 XM-19_hot rolled (NITRONIC 50HS) + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 515,
-      "preloadMinN": 1033151,
-      "preloadMaxN": 1033151,
-      "torqueMinNm": 5667,
-      "torqueMaxNm": 8459
-    },
-    {
-      "size": "2 1/2\"",
-      "material": "A479 XM-19_annealled (NITRONIC 50) + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 380,
-      "preloadMinN": 762325,
-      "preloadMaxN": 762325,
-      "torqueMinNm": 5667,
-      "torqueMaxNm": 6242
-    },
-    {
-      "size": "2 1/2\"",
-      "material": "A193 B16 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 725,
-      "preloadMinN": 1454436,
-      "preloadMaxN": 1454436,
-      "torqueMinNm": 5667,
-      "torqueMaxNm": 11908
-    },
-    {
-      "size": "2 1/2\"",
-      "material": "A193 B8 Cl-1 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 205,
-      "preloadMinN": 411254,
-      "preloadMaxN": 411254,
-      "torqueMinNm": 3367,
-      "torqueMaxNm": 3367
-    },
-    {
-      "size": "2 1/2\"",
-      "material": "A320 B8 Cl-1 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 205,
-      "preloadMinN": 411254,
-      "preloadMaxN": 411254,
-      "torqueMinNm": 3367,
-      "torqueMaxNm": 3367
-    },
-    {
-      "size": "2 1/2\"",
-      "material": "A193 B8 Cl-2 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 345,
-      "preloadMinN": 692111,
-      "preloadMaxN": 692111,
-      "torqueMinNm": 5667,
-      "torqueMaxNm": 5667
-    },
-    {
-      "size": "2 1/2\"",
-      "material": "A320 B8 Cl-2 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 345,
-      "preloadMinN": 692111,
-      "preloadMaxN": 692111,
-      "torqueMinNm": 5667,
-      "torqueMaxNm": 5667
-    },
-    {
-      "size": "2 1/2\"",
-      "material": "A193 B8M Cl-2 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 345,
-      "preloadMinN": 692111,
-      "preloadMaxN": 692111,
-      "torqueMinNm": 5667,
-      "torqueMaxNm": 5667
-    },
-    {
-      "size": "2 1/2\"",
-      "material": "A320 B8M Cl-2 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 345,
-      "preloadMinN": 692111,
-      "preloadMaxN": 692111,
-      "torqueMinNm": 5667,
-      "torqueMaxNm": 5667
-    },
-    {
-      "size": "2 3/4\"",
-      "material": "A320 L7 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 655,
-      "preloadMinN": 1604788,
-      "preloadMaxN": 1604788,
-      "torqueMinNm": 7566,
-      "torqueMaxNm": 14364
-    },
-    {
-      "size": "2 3/4\"",
-      "material": "A320 L7M + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 550,
-      "preloadMinN": 1347532,
-      "preloadMaxN": 1347532,
-      "torqueMinNm": 7566,
-      "torqueMaxNm": 12062
-    },
-    {
-      "size": "2 3/4\"",
-      "material": "A193 B7 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 655,
-      "preloadMinN": 1604788,
-      "preloadMaxN": 1604788,
-      "torqueMinNm": 7566,
-      "torqueMaxNm": 14364
-    },
-    {
-      "size": "2 3/4\"",
-      "material": "A193 B7M + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 550,
-      "preloadMinN": 1347532,
-      "preloadMaxN": 1347532,
-      "torqueMinNm": 7566,
-      "torqueMaxNm": 12062
-    },
-    {
-      "size": "2 3/4\"",
-      "material": "A479 XM-19_hot rolled (NITRONIC 50HS) + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 515,
-      "preloadMinN": 1261780,
-      "preloadMaxN": 1261780,
-      "torqueMinNm": 7566,
-      "torqueMaxNm": 11294
-    },
-    {
-      "size": "2 3/4\"",
-      "material": "A479 XM-19_annealled (NITRONIC 50) + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 380,
-      "preloadMinN": 931022,
-      "preloadMaxN": 931022,
-      "torqueMinNm": 7566,
-      "torqueMaxNm": 8334
-    },
-    {
-      "size": "2 3/4\"",
-      "material": "A193 B16 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 655,
-      "preloadMinN": 1604788,
-      "preloadMaxN": 1604788,
-      "torqueMinNm": 7566,
-      "torqueMaxNm": 14364
-    },
-    {
-      "size": "2 3/4\"",
-      "material": "A193 B8 Cl-1 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 205,
-      "preloadMinN": 502262,
-      "preloadMaxN": 502262,
-      "torqueMinNm": 4496,
-      "torqueMaxNm": 4496
-    },
-    {
-      "size": "2 3/4\"",
-      "material": "A320 B8 Cl-1 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 205,
-      "preloadMinN": 502262,
-      "preloadMaxN": 502262,
-      "torqueMinNm": 4496,
-      "torqueMaxNm": 4496
-    },
-    {
-      "size": "2 3/4\"",
-      "material": "A193 B8 Cl-2 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 345,
-      "preloadMinN": 845270,
-      "preloadMaxN": 845270,
-      "torqueMinNm": 7566,
-      "torqueMaxNm": 7566
-    },
-    {
-      "size": "2 3/4\"",
-      "material": "A320 B8 Cl-2 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 345,
-      "preloadMinN": 845270,
-      "preloadMaxN": 845270,
-      "torqueMinNm": 7566,
-      "torqueMaxNm": 7566
-    },
-    {
-      "size": "2 3/4\"",
-      "material": "A193 B8M Cl-2 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 345,
-      "preloadMinN": 845270,
-      "preloadMaxN": 845270,
-      "torqueMinNm": 7566,
-      "torqueMaxNm": 7566
-    },
-    {
-      "size": "2 3/4\"",
-      "material": "A320 B8M Cl-2 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 345,
-      "preloadMinN": 845270,
-      "preloadMaxN": 845270,
-      "torqueMinNm": 7566,
-      "torqueMaxNm": 7566
-    },
-    {
-      "size": "3\"",
-      "material": "A320 L7 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 655,
-      "preloadMinN": 1924608,
-      "preloadMaxN": 1924608,
-      "torqueMinNm": 9848,
-      "torqueMaxNm": 18696
-    },
-    {
-      "size": "3\"",
-      "material": "A320 L7M + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 550,
-      "preloadMinN": 1616083,
-      "preloadMaxN": 1616083,
-      "torqueMinNm": 9848,
-      "torqueMaxNm": 15699
-    },
-    {
-      "size": "3\"",
-      "material": "A193 B7 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 655,
-      "preloadMinN": 1924608,
-      "preloadMaxN": 1924608,
-      "torqueMinNm": 9848,
-      "torqueMaxNm": 18696
-    },
-    {
-      "size": "3\"",
-      "material": "A193 B7M + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 550,
-      "preloadMinN": 1616083,
-      "preloadMaxN": 1616083,
-      "torqueMinNm": 9848,
-      "torqueMaxNm": 15699
-    },
-    {
-      "size": "3\"",
-      "material": "A479 XM-19_hot rolled (NITRONIC 50HS) + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 515,
-      "preloadMinN": 1513242,
-      "preloadMaxN": 1513242,
-      "torqueMinNm": 9848,
-      "torqueMaxNm": 14700
-    },
-    {
-      "size": "3\"",
-      "material": "A479 XM-19_annealled (NITRONIC 50) + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 380,
-      "preloadMinN": 1116567,
-      "preloadMaxN": 1116567,
-      "torqueMinNm": 9848,
-      "torqueMaxNm": 10847
-    },
-    {
-      "size": "3\"",
-      "material": "A193 B16 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 655,
-      "preloadMinN": 1924608,
-      "preloadMaxN": 1924608,
-      "torqueMinNm": 9848,
-      "torqueMaxNm": 18696
-    },
-    {
-      "size": "3\"",
-      "material": "A193 B8 Cl-1 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 205,
-      "preloadMinN": 602358,
-      "preloadMaxN": 602358,
-      "torqueMinNm": 5852,
-      "torqueMaxNm": 5852
-    },
-    {
-      "size": "3\"",
-      "material": "A320 B8 Cl-1 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 205,
-      "preloadMinN": 602358,
-      "preloadMaxN": 602358,
-      "torqueMinNm": 5852,
-      "torqueMaxNm": 5852
-    },
-    {
-      "size": "3\"",
-      "material": "A193 B8 Cl-2 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 345,
-      "preloadMinN": 1013725,
-      "preloadMaxN": 1013725,
-      "torqueMinNm": 9848,
-      "torqueMaxNm": 9848
-    },
-    {
-      "size": "3\"",
-      "material": "A320 B8 Cl-2 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 345,
-      "preloadMinN": 1013725,
-      "preloadMaxN": 1013725,
-      "torqueMinNm": 9848,
-      "torqueMaxNm": 9848
-    },
-    {
-      "size": "3\"",
-      "material": "A193 B8M Cl-2 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 345,
-      "preloadMinN": 1013725,
-      "preloadMaxN": 1013725,
-      "torqueMinNm": 9848,
-      "torqueMaxNm": 9848
-    },
-    {
-      "size": "3\"",
-      "material": "A320 B8M Cl-2 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 345,
-      "preloadMinN": 1013725,
-      "preloadMaxN": 1013725,
-      "torqueMinNm": 9848,
-      "torqueMaxNm": 9848
-    },
-    {
-      "size": "3 1/4\"",
-      "material": "A320 L7 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 655,
-      "preloadMinN": 2273470,
-      "preloadMaxN": 2273470,
-      "torqueMinNm": 12547,
-      "torqueMaxNm": 23821
-    },
-    {
-      "size": "3 1/4\"",
-      "material": "A320 L7M + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 550,
-      "preloadMinN": 1909020,
-      "preloadMaxN": 1909020,
-      "torqueMinNm": 12547,
-      "torqueMaxNm": 20002
-    },
-    {
-      "size": "3 1/4\"",
-      "material": "A193 B7 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 655,
-      "preloadMinN": 2273470,
-      "preloadMaxN": 2273470,
-      "torqueMinNm": 12547,
-      "torqueMaxNm": 23821
-    },
-    {
-      "size": "3 1/4\"",
-      "material": "A193 B7M + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 550,
-      "preloadMinN": 1909020,
-      "preloadMaxN": 1909020,
-      "torqueMinNm": 12547,
-      "torqueMaxNm": 20002
-    },
-    {
-      "size": "3 1/4\"",
-      "material": "A479 XM-19_hot rolled (NITRONIC 50HS) + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 415,
-      "preloadMinN": 1440443,
-      "preloadMaxN": 1440443,
-      "torqueMinNm": 12547,
-      "torqueMaxNm": 15093
-    },
-    {
-      "size": "3 1/4\"",
-      "material": "A479 XM-19_annealled (NITRONIC 50) + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 380,
-      "preloadMinN": 1318959,
-      "preloadMaxN": 1318959,
-      "torqueMinNm": 12547,
-      "torqueMaxNm": 13820
-    },
-    {
-      "size": "3 1/4\"",
-      "material": "A193 B16 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 655,
-      "preloadMinN": 2273470,
-      "preloadMaxN": 2273470,
-      "torqueMinNm": 12547,
-      "torqueMaxNm": 23821
-    },
-    {
-      "size": "3 1/4\"",
-      "material": "A193 B8 Cl-1 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 205,
-      "preloadMinN": 711544,
-      "preloadMaxN": 711544,
-      "torqueMinNm": 7455,
-      "torqueMaxNm": 7455
-    },
-    {
-      "size": "3 1/4\"",
-      "material": "A320 B8 Cl-1 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 205,
-      "preloadMinN": 711544,
-      "preloadMaxN": 711544,
-      "torqueMinNm": 7455,
-      "torqueMaxNm": 7455
-    },
-    {
-      "size": "3 1/4\"",
-      "material": "A193 B8 Cl-2 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 345,
-      "preloadMinN": 1197476,
-      "preloadMaxN": 1197476,
-      "torqueMinNm": 12547,
-      "torqueMaxNm": 12547
-    },
-    {
-      "size": "3 1/4\"",
-      "material": "A320 B8 Cl-2 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 345,
-      "preloadMinN": 1197476,
-      "preloadMaxN": 1197476,
-      "torqueMinNm": 12547,
-      "torqueMaxNm": 12547
-    },
-    {
-      "size": "3 1/4\"",
-      "material": "A193 B8M Cl-2 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 345,
-      "preloadMinN": 1197476,
-      "preloadMaxN": 1197476,
-      "torqueMinNm": 12547,
-      "torqueMaxNm": 12547
-    },
-    {
-      "size": "3 1/4\"",
-      "material": "A320 B8M Cl-2 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 345,
-      "preloadMinN": 1197476,
-      "preloadMaxN": 1197476,
-      "torqueMinNm": 12547,
-      "torqueMaxNm": 12547
-    },
-    {
-      "size": "3 1/2\"",
-      "material": "A320 L7 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 655,
-      "preloadMinN": 2651372,
-      "preloadMaxN": 2651372,
-      "torqueMinNm": 15699,
-      "torqueMaxNm": 29805
-    },
-    {
-      "size": "3 1/2\"",
-      "material": "A320 L7M + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 550,
-      "preloadMinN": 2226342,
-      "preloadMaxN": 2226342,
-      "torqueMinNm": 15699,
-      "torqueMaxNm": 25027
-    },
-    {
-      "size": "3 1/2\"",
-      "material": "A193 B7 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 655,
-      "preloadMinN": 2651372,
-      "preloadMaxN": 2651372,
-      "torqueMinNm": 15699,
-      "torqueMaxNm": 29805
-    },
-    {
-      "size": "3 1/2\"",
-      "material": "A193 B7M + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 550,
-      "preloadMinN": 2226342,
-      "preloadMaxN": 2226342,
-      "torqueMinNm": 15699,
-      "torqueMaxNm": 25027
-    },
-    {
-      "size": "3 1/2\"",
-      "material": "A479 XM-19_hot rolled (NITRONIC 50HS) + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 415,
-      "preloadMinN": 1679877,
-      "preloadMaxN": 1679877,
-      "torqueMinNm": 15699,
-      "torqueMaxNm": 18884
-    },
-    {
-      "size": "3 1/2\"",
-      "material": "A479 XM-19_annealled (NITRONIC 50) + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 380,
-      "preloadMinN": 1538200,
-      "preloadMaxN": 1538200,
-      "torqueMinNm": 15699,
-      "torqueMaxNm": 17291
-    },
-    {
-      "size": "3 1/2\"",
-      "material": "A193 B16 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 655,
-      "preloadMinN": 2651372,
-      "preloadMaxN": 2651372,
-      "torqueMinNm": 15699,
-      "torqueMaxNm": 29805
-    },
-    {
-      "size": "3 1/2\"",
-      "material": "A193 B8 Cl-1 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 205,
-      "preloadMinN": 829819,
-      "preloadMaxN": 829819,
-      "torqueMinNm": 9328,
-      "torqueMaxNm": 9328
-    },
-    {
-      "size": "3 1/2\"",
-      "material": "A320 B8 Cl-1 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 205,
-      "preloadMinN": 829819,
-      "preloadMaxN": 829819,
-      "torqueMinNm": 9328,
-      "torqueMaxNm": 9328
-    },
-    {
-      "size": "3 1/2\"",
-      "material": "A193 B8 Cl-2 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 345,
-      "preloadMinN": 1396524,
-      "preloadMaxN": 1396524,
-      "torqueMinNm": 15699,
-      "torqueMaxNm": 15699
-    },
-    {
-      "size": "3 1/2\"",
-      "material": "A320 B8 Cl-2 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 345,
-      "preloadMinN": 1396524,
-      "preloadMaxN": 1396524,
-      "torqueMinNm": 15699,
-      "torqueMaxNm": 15699
-    },
-    {
-      "size": "3 1/2\"",
-      "material": "A193 B8M Cl-2 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 345,
-      "preloadMinN": 1396524,
-      "preloadMaxN": 1396524,
-      "torqueMinNm": 15699,
-      "torqueMaxNm": 15699
-    },
-    {
-      "size": "3 1/2\"",
-      "material": "A320 B8M Cl-2 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 345,
-      "preloadMinN": 1396524,
-      "preloadMaxN": 1396524,
-      "torqueMinNm": 15699,
-      "torqueMaxNm": 15699
-    },
-    {
-      "size": "3 3/4\"",
-      "material": "A320 L7 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 655,
-      "preloadMinN": 3058314,
-      "preloadMaxN": 3058314,
-      "torqueMinNm": 19338,
-      "torqueMaxNm": 36714
-    },
-    {
-      "size": "3 3/4\"",
-      "material": "A320 L7M + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 550,
-      "preloadMinN": 2568050,
-      "preloadMaxN": 2568050,
-      "torqueMinNm": 19338,
-      "torqueMaxNm": 30829
-    },
-    {
-      "size": "3 3/4\"",
-      "material": "A193 B7 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 655,
-      "preloadMinN": 3058314,
-      "preloadMaxN": 3058314,
-      "torqueMinNm": 19338,
-      "torqueMaxNm": 36714
-    },
-    {
-      "size": "3 3/4\"",
-      "material": "A193 B7M + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 550,
-      "preloadMinN": 2568050,
-      "preloadMaxN": 2568050,
-      "torqueMinNm": 19338,
-      "torqueMaxNm": 30829
-    },
-    {
-      "size": "3 3/4\"",
-      "material": "A479 XM-19_hot rolled (NITRONIC 50HS) + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 415,
-      "preloadMinN": 1937710,
-      "preloadMaxN": 1937710,
-      "torqueMinNm": 19338,
-      "torqueMaxNm": 23262
-    },
-    {
-      "size": "3 3/4\"",
-      "material": "A479 XM-19_annealled (NITRONIC 50) + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 380,
-      "preloadMinN": 1774289,
-      "preloadMaxN": 1774289,
-      "torqueMinNm": 19338,
-      "torqueMaxNm": 21300
-    },
-    {
-      "size": "3 3/4\"",
-      "material": "A193 B16 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 655,
-      "preloadMinN": 3058314,
-      "preloadMaxN": 3058314,
-      "torqueMinNm": 19338,
-      "torqueMaxNm": 36714
-    },
-    {
-      "size": "3 3/4\"",
-      "material": "A193 B8 Cl-1 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 205,
-      "preloadMinN": 957182,
-      "preloadMaxN": 957182,
-      "torqueMinNm": 11491,
-      "torqueMaxNm": 11491
-    },
-    {
-      "size": "3 3/4\"",
-      "material": "A320 B8 Cl-1 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 205,
-      "preloadMinN": 957182,
-      "preloadMaxN": 957182,
-      "torqueMinNm": 11491,
-      "torqueMaxNm": 11491
-    },
-    {
-      "size": "3 3/4\"",
-      "material": "A193 B8 Cl-2 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 345,
-      "preloadMinN": 1610868,
-      "preloadMaxN": 1610868,
-      "torqueMinNm": 19338,
-      "torqueMaxNm": 19338
-    },
-    {
-      "size": "3 3/4\"",
-      "material": "A320 B8 Cl-2 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 345,
-      "preloadMinN": 1610868,
-      "preloadMaxN": 1610868,
-      "torqueMinNm": 19338,
-      "torqueMaxNm": 19338
-    },
-    {
-      "size": "3 3/4\"",
-      "material": "A193 B8M Cl-2 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 345,
-      "preloadMinN": 1610868,
-      "preloadMaxN": 1610868,
-      "torqueMinNm": 19338,
-      "torqueMaxNm": 19338
-    },
-    {
-      "size": "3 3/4\"",
-      "material": "A320 B8M Cl-2 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 345,
-      "preloadMinN": 1610868,
-      "preloadMaxN": 1610868,
-      "torqueMinNm": 19338,
-      "torqueMaxNm": 19338
-    },
-    {
-      "size": "4\"",
-      "material": "A320 L7 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 655,
-      "preloadMinN": 3494297,
-      "preloadMaxN": 3494297,
-      "torqueMinNm": 23500,
-      "torqueMaxNm": 44616
-    },
-    {
-      "size": "4\"",
-      "material": "A320 L7M + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 550,
-      "preloadMinN": 2934143,
-      "preloadMaxN": 2934143,
-      "torqueMinNm": 23500,
-      "torqueMaxNm": 37464
-    },
-    {
-      "size": "4\"",
-      "material": "A193 B7 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 655,
-      "preloadMinN": 3494297,
-      "preloadMaxN": 3494297,
-      "torqueMinNm": 23500,
-      "torqueMaxNm": 44616
-    },
-    {
-      "size": "4\"",
-      "material": "A193 B7M + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 550,
-      "preloadMinN": 2934143,
-      "preloadMaxN": 2934143,
-      "torqueMinNm": 23500,
-      "torqueMaxNm": 37464
-    },
-    {
-      "size": "4\"",
-      "material": "A479 XM-19_hot rolled (NITRONIC 50HS) + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 415,
-      "preloadMinN": 2213944,
-      "preloadMaxN": 2213944,
-      "torqueMinNm": 23500,
-      "torqueMaxNm": 28268
-    },
-    {
-      "size": "4\"",
-      "material": "A479 XM-19_annealled (NITRONIC 50) + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 380,
-      "preloadMinN": 2027226,
-      "preloadMaxN": 2027226,
-      "torqueMinNm": 23500,
-      "torqueMaxNm": 25884
-    },
-    {
-      "size": "4\"",
-      "material": "A193 B16 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 655,
-      "preloadMinN": 3494297,
-      "preloadMaxN": 3494297,
-      "torqueMinNm": 23500,
-      "torqueMaxNm": 44616
-    },
-    {
-      "size": "4\"",
-      "material": "A193 B8 Cl-1 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 205,
-      "preloadMinN": 1093635,
-      "preloadMaxN": 1093635,
-      "torqueMinNm": 13964,
-      "torqueMaxNm": 13964
-    },
-    {
-      "size": "4\"",
-      "material": "A320 B8 Cl-1 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 205,
-      "preloadMinN": 1093635,
-      "preloadMaxN": 1093635,
-      "torqueMinNm": 13964,
-      "torqueMaxNm": 13964
-    },
-    {
-      "size": "4\"",
-      "material": "A193 B8 Cl-2 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 345,
-      "preloadMinN": 1840508,
-      "preloadMaxN": 1840508,
-      "torqueMinNm": 23500,
-      "torqueMaxNm": 23500
-    },
-    {
-      "size": "4\"",
-      "material": "A320 B8 Cl-2 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 345,
-      "preloadMinN": 1840508,
-      "preloadMaxN": 1840508,
-      "torqueMinNm": 23500,
-      "torqueMaxNm": 23500
-    },
-    {
-      "size": "4\"",
-      "material": "A193 B8M Cl-2 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 345,
-      "preloadMinN": 1840508,
-      "preloadMaxN": 1840508,
-      "torqueMinNm": 23500,
-      "torqueMaxNm": 23500
-    },
-    {
-      "size": "4\"",
-      "material": "A320 B8M Cl-2 + XYLAN",
-      "xylan": "yes",
-      "preloadSy": 345,
-      "preloadMinN": 1840508,
-      "preloadMaxN": 1840508,
-      "torqueMinNm": 23500,
-      "torqueMaxNm": 23500
     }
   ]
 }
